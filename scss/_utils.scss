@@ -1,0 +1,17 @@
+@for $i from 6 to 30 {
+  .mt-#{$i} {
+    margin-top: calc(#{$i} * 1rem) !important;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: calc(#{$i} * 1rem) !important;
+  }
+
+  .ml-#{$i} {
+    margin-left: calc(#{$i} * 1rem) !important;
+  }
+
+  .mr-#{$i} {
+    margin-right: calc(#{$i} * 1rem) !important;
+  }
+}

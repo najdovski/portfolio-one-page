@@ -1,0 +1,31 @@
+// Left slide
+@for $i from 1 to 10 {
+  .animation-left-slide-#{$i} {
+    animation: left-slide calc(#{$i} * 0.5s) cubic-bezier(0.2, 0.35, 0.5, 1) both;
+  }
+}
+
+@keyframes left-slide {
+  0% {
+    transform: translateX(15rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+// Right slide
+@for $i from 1 to 20 {
+  .animation-right-slide-#{$i} {
+    animation: right-slide calc(#{$i} * 0.25s) cubic-bezier(0.2, 0.35, 0.5, 1) both;
+  }
+}
+
+@keyframes right-slide {
+  0% {
+    transform: translateX(-15rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
