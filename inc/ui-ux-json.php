@@ -11,7 +11,7 @@
           </div>
           <div class="description">
             <div class="row">
-              <div class="col-auto"><a class="description" href="#"><i class="fas fa-globe-americas mr-2"></i> Click here to visit the website</a></div>
+              <div class="col-auto mb-1"><a class="description" href="#"><i class="fas fa-globe-americas mr-2"></i> Click here to visit the website</a></div>
               <div class="col text-right"><a class="description" href="#"><i class="fas fa-globe-americas mr-2"></i>View all Lottie Animations here</a></div>
             </div>
           </div>

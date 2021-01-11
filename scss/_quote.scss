@@ -1,0 +1,14 @@
+.quote {
+  background: $placeholder-color;
+
+  .bg-left {
+    background-image: url("images/quote/bg-left.png");
+    background-repeat: no-repeat;
+    background-position: -4rem 19rem;
+  }
+
+  .bg-right {
+    background-image: url("images/quote/bg-right.png");
+    background-repeat: no-repeat;
+  }
+}

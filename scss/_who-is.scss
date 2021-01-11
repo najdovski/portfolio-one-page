@@ -1,0 +1,23 @@
+.who-is {
+  background-color: $pink-2;
+
+  .title {
+    font-size: 1.88rem;
+  }
+
+  .bg-right {
+    background-image: url("images/who-is/bg-right.png");
+    background-repeat: no-repeat;
+    background-position: 43rem 15rem;
+  }
+
+  .lang {
+    font-size: 4.1rem;
+    font-weight: 700;
+    line-height: 4.1rem;
+  }
+
+  .flag {
+    border-radius: 20px;
+  }
+}

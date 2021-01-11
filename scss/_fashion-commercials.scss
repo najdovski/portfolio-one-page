@@ -1,0 +1,21 @@
+.fashion-commercials {
+  background-image: linear-gradient(#ee8199, #ff476e);
+
+  .title {
+    font-size: 1.88rem;
+  }
+
+  .video {
+    .youtube-video,
+    .video-thumbnail {
+      max-width: 40rem;
+      max-height: 28rem;
+    }
+  }
+
+
+  .fashion-commercials-hr {
+    max-width: 40rem;
+    border-bottom: 2px solid $fashion-commercials-border;
+  }
+}

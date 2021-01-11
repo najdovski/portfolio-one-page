@@ -1,0 +1,65 @@
+.cards-container {
+  background-color: $yellow;
+
+  .title {
+    color: $placeholder-color;
+    font-size: 1.88rem;
+  }
+
+  .description {
+    color: $placeholder-color;
+  }
+
+  .card {
+    color: $placeholder-color;
+    font-family: Arial;
+
+    .card-title {
+      font-weight: 900;
+    }
+
+    .card-description {
+      font-size: 0.88rem;
+    }
+
+    .card-1-bg {
+      height: 12.5rem;
+      background-image: url("images/cards/card1.gif");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .card-2-info-div {
+      height: 23.8rem;
+    }
+
+    .card-2-bg {
+      min-height: 25rem;
+      background-image: url("images/cards/card2.gif");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .card-4-info-div {
+      max-width: 20rem;
+    }
+
+    .card-4-bg {
+      min-height: 22.4rem;
+      background-image: url("images/cards/card4.gif");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .card-3-img-div {
+    min-height: 26.25rem;
+    background-image: url("images/cards/card3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

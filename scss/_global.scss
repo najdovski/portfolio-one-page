@@ -54,7 +54,7 @@
 .video {
   cursor: pointer;
   filter: brightness(80%);
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 
   &:hover {
     filter: brightness(100%);
@@ -75,6 +75,11 @@
 
     img {
       width: 11.9rem;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 
