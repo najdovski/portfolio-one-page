@@ -144,10 +144,20 @@
       font-size: 2.23rem;
     }
 
+    .modal-content {
+      background: unset !important;
+    }
+
+    .image-contact {
+      background-image: url("images/testimonials/contact-left.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
     .form-container {
       font-size: 1.3rem;
       color: $contact-form-color;
-      max-width: 30.6rem;
 
       input:not([type=submit]),
       textarea {

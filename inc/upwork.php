@@ -12,8 +12,8 @@
                 <span class="percentage-100">/ 100</span>
               </div>
             </div>
-            <div class="row">
-              <div class="col">
+            <div class="row justify-content-center">
+              <div class="col-9 col-md-12">
                 <div class="lottie-stars stars-big"></div>
               </div>
             </div>

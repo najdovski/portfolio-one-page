@@ -29,10 +29,37 @@
 
 .lottie-placeholder-container {
   #lottie-placeholder {
-    svg {
-      transform: scale(1.3) !important;
+    position: absolute;
+    width: 22rem;
+    top: -16.8rem;
+    left: -9.7rem;
+
+    @media screen and (max-height: 1011px) {
+      display: none;
     }
-  } 
+
+    @include media-breakpoint-up(md) { 
+      width: 32rem;
+      top: -24.3rem;
+      left: -13.7rem;
+    }
+  }
+}
+
+.open-portfolio-here {
+  color: white;
+
+  a {
+    color: white;
+  }
+
+  @media screen and (max-height: 1062px) {
+    color: $danger;
+
+    a {
+      color: $yellow;
+    }
+  }
 }
 
 .hero-description {

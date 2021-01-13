@@ -21,7 +21,7 @@
       working with startups to create ‍growth-driven <br class="d-none d-xl-block" />
       and unique Products & Brands
     </div>
-    <div class="col-auto">
+    <div class="col-auto btn-container">
       <button class="btn btn-danger py-3 text-white hero-button fs-smaller" data-toggle="modal" data-target="#calendlyModal">FREE CONSULTATION <i class="fas fa-arrow-right ml-2"></i></button>
 
       <!-- Calendly Modal -->
@@ -40,15 +40,8 @@
       </div>
 
     </div>
-    <div class="col-12 text-center text-white mt-3 fs-small">
-      Or open the PDF Portfolio <a class="text-white" href="#">here</a>
-    </div>
-    <div class="col-12 lottie-placeholder-container">
-      <div class="row justify-content-center">
-        <div class="col-auto">
-          <!-- <div id="lottie-placeholder"></div> -->
-        </div>
-      </div>
+    <div class="col-12 text-center mt-3 fs-small open-portfolio-here">
+      Or open the PDF Portfolio <a href="#">here</a>
     </div>
   </div>
 </div>

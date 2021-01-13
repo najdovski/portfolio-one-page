@@ -3,7 +3,11 @@
 
   .title {
     color: $placeholder-color;
-    font-size: 1.88rem;
+    font-size: 1.4rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.88rem;
+    }
   }
 
   .description {
@@ -58,6 +62,36 @@
   .card-3-img-div {
     min-height: 26.25rem;
     background-image: url("images/cards/card3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .last-card {
+    min-height: 26.25rem;
+  }
+
+  .dm-video {
+    background-image: url("images/cards/card5.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .video-div {
+    .play-button {
+      @include media-breakpoint-only(sm) {
+        max-width: 7rem !important;
+      }
+
+      @include media-breakpoint-up(xl) {
+        max-width: 7rem !important;
+      }
+    }
+  }
+
+  .card-house {
+    background-image: url("images/cards/card6.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

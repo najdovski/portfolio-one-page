@@ -3,11 +3,17 @@
 
   .percentage-current {
     color: $percentage-color;
-    text-shadow: 3px 3px 7px black;
-    font-size: 5rem;
-    line-height: 5rem;
+    text-shadow: 1px 1px 4px black;
+    font-size: 3rem;
+    line-height: 3rem;
 
     @include media-breakpoint-up(md) {
+      text-shadow: 3px 3px 7px black;
+      font-size: 5rem;
+      line-height: 5rem;
+    }
+
+    @include media-breakpoint-up(lg) {
       font-size: 7rem; 
       line-height: 7rem;
     }
@@ -15,7 +21,11 @@
 
   .percentage-100 {
     color: $percentage-color;
-    font-size: 3.13rem;
+    font-size: 2rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 3.13rem;
+    }
   }
 
   .upwork-text {

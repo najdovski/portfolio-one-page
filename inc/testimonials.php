@@ -20,10 +20,10 @@
             <img src="images/testimonials/parker.png" class="my-4">
             <div class="font-weight-bold fs-big">Parker Esmay</div>
             <div class="card-description m-3">CEO at Blue Hare Marketing</div>
-            <div class="row card-pills">
-              <div class="col card-pill p-2 bg-white mx-2 rounded">UI/UX</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">Animation</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">JSON</div>
+            <div class="row justify-content-center card-pills">
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">UI/UX</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">Animation</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">JSON</div>
             </div>
           </div>
           <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
@@ -48,11 +48,11 @@
             <img src="images/testimonials/ian.png" class="my-4">
             <div class="font-weight-bold fs-big">Ian Balina</div>
             <div class="card-description m-3">CEO at TokenMetrics</div>
-            <br class="d-none d-lg-block" />
-            <div class="row card-pills">
-              <div class="col card-pill p-2 bg-white mx-2 rounded">crypto</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">video</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">academy</div>
+            <br class="d-none d-sm-block d-md-none d-xl-block" />
+            <div class="row justify-content-center card-pills">
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">crypto</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">video</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">academy</div>
             </div>
           </div>
           <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
@@ -81,11 +81,11 @@
             <img src="images/testimonials/pajda.png" class="my-4">
             <div class="font-weight-bold fs-big">David Pajda</div>
             <div class="card-description m-3">Co-Founder at CardsPlug</div>
-            <br class="d-none d-lg-block" />
-            <div class="row card-pills">
-              <div class="col card-pill p-2 bg-white mx-2 rounded">cards</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">FIFA</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">NBA</div>
+            <br class="d-none d-xl-block" />
+            <div class="row justify-content-center card-pills">
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">cards</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">FIFA</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">NBA</div>
             </div>
           </div>
           <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
@@ -112,10 +112,10 @@
             <img src="images/testimonials/nemanja.png" class="my-4">
             <div class="font-weight-bold fs-big">Nemanja Rodic</div>
             <div class="card-description m-3">Marketing Executive at Valoya</div>
-            <div class="row card-pills">
-              <div class="col card-pill p-2 bg-white mx-2 rounded">cinematic</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">expo</div>
-              <div class="col card-pill p-2 bg-white mx-2 rounded">graphics</div>
+            <div class="row justify-content-center card-pills">
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">cinematic</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">expo</div>
+              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">graphics</div>
             </div>
           </div>
           <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
@@ -164,43 +164,45 @@
   <div class="modal fade pr-0" id="letsTalkModal" tabindex="-1" role="dialog" aria-labelledby="letsTalkModalTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <div class="modal-body modal-placeholder row">
-          <div class="col-5">
-            <img src="images/testimonials/contact-left.jpg">
-          </div>
-          <div class="col-6 form-container">
-            <div class="row">
-              <div class="col-6 title font-weight-bold">Let's Talk</div>
-              <div class="col-6 text-right align-self-center">
-                <img src="images/testimonials/logo-icon.png">
+        <div class="modal-body overflow-hidden">
+          <div class="form-img-container row bg-white w-100">
+            <div class="d-none d-xl-block col-xl px-0 image-contact"></div>
+            <div class="col">
+              <div class="form-container row py-4 px-3 px-xl-5">
+                <div class="col-12 col-sm text-center text-sm-left px-0 title font-weight-bold">Let's Talk</div>
+                  <div class="col-12 col-sm text-center text-sm-right px-0 text-right align-self-center">
+                    <img src="images/testimonials/logo-icon.png">
+                </div>
+                <form id="contact-form" novalidate method="POST" class="mt-5 row justify-content-center">
+                  <div id="email-sent" class="col-12 text-center py-3 text-white bg-success mb-4 d-none">Email sent successfully</div>
+                  <div id="email-not-sent" class="col-12 text-center py-3 text-white bg-danger mb-4 d-none">Email not sent. Please try again</div>
+                  <div class="col-12">
+                    <label class="font-weight-bold" for="name">Name</label>
+                    <input id="name" name="name" type="text" class="form-control mb-3" placeholder="Enter your name here" required>
+                  </div>
+
+                  <div class="col-12">
+                    <label class="font-weight-bold" for="email">Email</label>
+                    <input id="email" name="email" type="email" class="form-control mb-3" placeholder="Enter your email here" required>
+                  </div>
+
+                  <div class="col-12">
+                    <label class="font-weight-bold" for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" class="form-control mb-3" placeholder="Enter subject here">
+                  </div>
+
+                  <div class="col-12">
+                    <label class="font-weight-bold" for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Enter message here" required></textarea>
+                  </div>
+
+                  <div class="col-12 col-md-5">
+                    <input class="btn btn-block btn-submit text-white mt-4" type="submit" value="SEND">
+                  </div>
+
+                </form>
               </div>
             </div>
-            <form action="#" method="POST" class="mt-5 row justify-content-center">
-              <div class="col-12">
-                <label class="font-weight-bold" for="name">Name</label>
-                <input id="name" name="name" type="text" class="form-control mb-3" placeholder="Enter your name here" required>
-              </div>
-
-              <div class="col-12">
-                <label class="font-weight-bold" for="email">Email</label>
-                <input id="email" name="email" type="email" class="form-control mb-3" placeholder="Enter your email here" required>
-              </div>
-
-              <div class="col-12">
-                <label class="font-weight-bold" for="subject">Subject</label>
-                <input id="subject" name="subject" type="text" class="form-control mb-3" placeholder="Enter subject here">
-              </div>
-
-              <div class="col-12">
-                <label class="font-weight-bold" for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10" class="form-control mb-3" placeholder="Enter message here" required></textarea>
-              </div>
-
-              <div class="col-5">
-                <input class="btn btn-block btn-submit text-white mt-4" type="submit" value="SEND">
-              </div>
-
-            </form>
           </div>
         </div>
       </div>

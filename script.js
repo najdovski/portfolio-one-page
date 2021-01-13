@@ -137,3 +137,44 @@ lottie.loadAnimation({
     preserveAspectRatio: 'xMidYMid meet'
   }
 });
+
+// Contact form validation & submit handling
+const form = document.querySelector('#contact-form');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (!form.checkValidity()) {
+    event.stopPropagation();
+  } else {
+    submitForm();
+  }
+  form.classList.add('was-validated');
+});
+
+function submitForm() {
+  const formData = {
+    name: form.querySelector('#name').value,
+    email: form.querySelector('#email').value,
+    subject: form.querySelector('#subject').value,
+    message: form.querySelector('#message').value
+  };
+
+  fetch('send-email.php', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+    },
+    body: JSON.stringify(formData),
+  })
+  .then(response => response)
+  .then(data => {
+    form.querySelector('#name').value = '';
+    form.querySelector('#email').value = '';
+    form.querySelector('#subject').value = '';
+    form.querySelector('#message').value = '';
+    form.classList.remove('was-validated');
+    document.querySelector('#email-sent').classList.remove('d-none');
+  })
+  .catch((error) => {
+    document.querySelector('#email-not-sent').classList.remove('d-none');
+  });
+}

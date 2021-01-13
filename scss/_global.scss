@@ -2,6 +2,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 .video-div {
   max-width: 53.63rem;
   filter: brightness(80%);
@@ -13,13 +17,33 @@
 
   .play-button {
     position: absolute;
+    transform: translate(-50%, -50%);
     left: 50%;
-    top: 45%;
+    top: 50%;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    max-width: 5rem;
+
+    @include media-breakpoint-up(sm) {
+      max-width: 9rem;
+    }
+
+    @include media-breakpoint-up(md) {
+      max-width: 7rem;
+    }
+
+    @media screen and (max-height: 1800px) {
+      max-width: 9rem;
+    }
+
+    @media screen and (min-height: 1800px) {
+      max-width: 12rem;
+    }
 
     &:hover {
-      transform: scale(1.3);
+      background-color: $play-button-hover-color;
     }
   }
 }
