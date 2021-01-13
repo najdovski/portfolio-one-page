@@ -158,7 +158,7 @@ function submitForm() {
     message: form.querySelector('#message').value
   };
 
-  fetch('send-email.php', {
+  fetch('send-email', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
