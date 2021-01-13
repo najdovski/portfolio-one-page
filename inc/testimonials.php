@@ -1,4 +1,4 @@
-<div class="container-fluid testimonials pt-5 px-0 overflow-hidden">
+<div class="container-fluid testimonials pt-5 px-0">
   <div class="row justify-content-center">
     <div class="col-12 text-center">
       <div class="title title-shadow fs-heading font-weight-bold">
