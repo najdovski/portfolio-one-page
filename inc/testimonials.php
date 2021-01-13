@@ -1,4 +1,4 @@
-<div class="container-fluid testimonials pt-5 px-0">
+<div class="container-fluid testimonials pt-5 px-0 overflow-hidden">
   <div class="row justify-content-center">
     <div class="col-12 text-center">
       <div class="title title-shadow fs-heading font-weight-bold">
@@ -164,7 +164,7 @@
   <div class="modal fade pr-0" id="letsTalkModal" tabindex="-1" role="dialog" aria-labelledby="letsTalkModalTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <div class="modal-body overflow-hidden">
+        <div class="modal-body py-xl-0">
           <div class="form-img-container row bg-white w-100">
             <div class="d-none d-xl-block col-xl px-0 image-contact"></div>
             <div class="col">
