@@ -10,13 +10,13 @@
     color: $placeholder-color;
   }
 
+  .card-title {
+    font-weight: 900;
+  }
+  
   .card {
     color: $placeholder-color;
     font-family: Arial;
-
-    .card-title {
-      font-weight: 900;
-    }
 
     .card-description {
       font-size: 0.88rem;
@@ -41,18 +41,18 @@
       background-position: center;
       background-repeat: no-repeat;
     }
+  }
 
-    .card-4-info-div {
-      max-width: 20rem;
-    }
+  .card-4-info-div {
+    max-width: 20rem;
+  }
 
-    .card-4-bg {
-      min-height: 22.4rem;
-      background-image: url("images/cards/card4.gif");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+  .card-4-bg {
+    min-height: 22.4rem;
+    background-image: url("images/cards/card4.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .card-3-img-div {

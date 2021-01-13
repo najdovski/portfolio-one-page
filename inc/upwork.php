@@ -1,74 +1,72 @@
 <div class="container-fluid upwork">
   <div class="row">
-    <div class="col-2 bg-left py-5"></div>
-    <div class="col py-5">
+    <div class="col px-5 px-xl-0 overflow-hidden align-self-center">
       <div class="row justify-content-center">
-        <div class="col-auto align-self-center mx-5">
-          <div class="row">
-            <div class="col">
-              <span class="percentage-current">99</span>
-              <span class="percentage-100">/ 100</span>
-            </div>
-          </div>
-          <div class="row no-gutters stars">
-            <img src="images/upwork/star.png" alt="star" class="mr-2">
-            <img src="images/upwork/star.png" alt="star" class="mx-2">
-            <img src="images/upwork/star.png" alt="star" class="mx-2">
-            <img src="images/upwork/star.png" alt="star" class="mx-2">
-            <img src="images/upwork/star.png" alt="star" class="mx-2">
-          </div>
-          <div class="row">
+        <div class="d-none d-xl-block col-xl align-self-end" id="lottie-blue"></div>
+        <div class="col align-self-center percentage-stars-container">
+          <div class="row justify-content-around">
             <div class="col-auto align-self-center">
-              <a class="upwork-text" target="_blank" href="http://upwork.com/">on Upwork.com</a>
+            <div class="row">
+              <div class="col text-center">
+                <span class="d-inline-block mr-2 mr-xl-0 percentage-current">99</span>
+                <span class="percentage-100">/ 100</span>
+              </div>
             </div>
+            <div class="row">
+              <div class="col">
+                <div class="lottie-stars stars-big"></div>
+              </div>
+            </div>
+            <div class="row justify-content-center justify-content-md-left">
+              <div class="col-auto align-self-center">
+                <a href="#" class="upwork-text" data-toggle="modal" data-target="#upworkModal">on Upwork.com</a>
+
+                <!-- Upwork Modal -->
+                <div class="modal fade pr-0" id="upworkModal" tabindex="-1" role="dialog" aria-labelledby="upworkModalTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-body modal-placeholder">
+                        <div class="row">
+                          <div class="col-12 align-self-center font-weight-bold">
+                            UPWORK PROFILE
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto align-self-center table-stars">
+            <div class="row">
+              <div class="col-12 col-sm">
+                <span class="upwork-text">Quality</span>
+              </div>
+              <div class="col-7 col-md-auto lottie-stars"></div>
+            </div>
+            <hr class="upwork-hr"/>
+
+            <div class="row">
+              <div class="col-12 col-sm">
+                <span class="upwork-text">Communication</span>
+              </div>
+              <div class="col-7 col-md-auto lottie-stars"></div>
+            </div>
+            <hr class="upwork-hr"/>
+
+            <div class="row">
+              <div class="col-12 col-sm">
+                <span class="upwork-text">Attention to details</span>
+              </div>
+              <div class="col-7 col-md-auto lottie-stars"></div>
+            </div>
+            <hr class="upwork-hr"/>
+          </div>
           </div>
         </div>
-        <div class="col-8 align-self-center">
-          <div class="row">
-            <div class="col">
-              <span class="upwork-text">Quality</span>
-            </div>
-            <div class="col-auto">
-              <img src="images/upwork/star.png" alt="star" class="mr-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-            </div>
-          </div>
-          <hr class="upwork-hr"/>
-
-          <div class="row">
-            <div class="col">
-              <span class="upwork-text">Communication</span>
-            </div>
-            <div class="col-auto">
-              <img src="images/upwork/star.png" alt="star" class="mr-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-            </div>
-          </div>
-          <hr class="upwork-hr"/>
-
-          <div class="row">
-            <div class="col">
-              <span class="upwork-text">Attention to details</span>
-            </div>
-            <div class="col-auto">
-              <img src="images/upwork/star.png" alt="star" class="mr-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-              <img src="images/upwork/star.png" alt="star" class="mx-2">
-            </div>
-          </div>
-          <hr class="upwork-hr"/>
-
-        </div>
+        <div class="d-none d-xl-block col-xl align-self-start" id="lottie-yellow"></div>
       </div>
     </div>
-    <div class="col-2 bg-right py-5"></div>
   </div>
 </div>

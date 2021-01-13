@@ -1,24 +1,16 @@
 .upwork {
   background: $gray;
 
-  .bg-left {
-    background-image: url("images/upwork/bg-left.png");
-    background-repeat: no-repeat;
-    background-position: -8rem 8rem;
-    background-size: cover;
-  }
-
-  .bg-right {
-    background-image: url("images/upwork/bg-right.png");
-    background-repeat: no-repeat;
-    background-position: 8rem 0rem;
-  }
-
   .percentage-current {
     color: $percentage-color;
-    font-size: 7rem;
     text-shadow: 3px 3px 7px black;
-    line-height: 7rem;
+    font-size: 5rem;
+    line-height: 5rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 7rem; 
+      line-height: 7rem;
+    }
   }
 
   .percentage-100 {
@@ -28,10 +20,53 @@
 
   .upwork-text {
     color: $upwork-profile-link-color;
-    font-size: 2.07rem;
+    font-size: 1.4rem;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 1.7rem;
+    }
+  
+    @include media-breakpoint-up(md) {
+      font-size: 2.07rem;
+    }
   }
 
   .upwork-hr {
     border-bottom: 2px solid $upwork-profile-link-color;
+  }
+
+  #lottie-blue,
+  #lottie-yellow {
+    max-width: 25rem;
+
+    @media screen and (max-width: 1480px) {
+      max-width: 20rem;
+    }
+  }
+
+  .table-stars {
+    margin-top: 3rem;
+
+    @media screen and (min-width: 1724px) {
+      margin-top: 0;
+    }
+
+    @media screen and (max-width: 1724px) {
+      .lottie-stars {
+        max-width: 15rem;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      .lottie-stars {
+        max-width: 12rem;
+      }
+    }
+  }
+
+  .percentage-stars-container {
+    @media screen and (max-width: 1724px) {
+      padding: 3rem 0;
+    }
   }
 }

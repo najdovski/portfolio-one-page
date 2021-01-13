@@ -2,7 +2,11 @@
   background-image: linear-gradient(#1c1647, #362b89);
 
   .ui-ux-json-title {
-    font-size: 1.88rem;
+    font-size: 1.6rem;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 1.88rem;
+    }
   }
 
   .optimization {
@@ -12,5 +16,9 @@
   .description {
     color: $neon;
     font-size: 0.88rem;
+  }
+
+  .video-div {
+    max-width: 53.63rem;
   }
 }

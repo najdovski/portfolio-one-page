@@ -1,9 +1,33 @@
 .fs-giant {
-  font-size: 3.13rem;
+  font-size: 1.6em;
+
+  @include media-breakpoint-up(sm) { 
+    font-size: 2rem;
+  }
+
+  @include media-breakpoint-up(md) { 
+    font-size: 2.50rem;
+  }
+
+  @include media-breakpoint-up(xl) { 
+    font-size: 3.13rem;
+  }
 }
 
 .fs-heading {
-  font-size: 2.5rem;
+  font-size: 1.4em;
+
+  @include media-breakpoint-up(sm) { 
+    font-size: 2rem;
+  }
+
+  @include media-breakpoint-up(md) { 
+    font-size: 2.3rem;
+  }
+
+  @include media-breakpoint-up(xl) { 
+    font-size: 2.5rem;
+  }
 }
 
 .fs-bigger {

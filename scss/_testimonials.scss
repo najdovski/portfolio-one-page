@@ -1,5 +1,177 @@
 .testimonials {
+  background-image: url("images/testimonials/bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 30rem;
+
+  .interested-working-div {
+    background-image: url("images/testimonials/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: -3rem 0;
+
+    margin-top: 2rem;
+
+    @include media-breakpoint-up(sm) {
+      margin-top: 5rem;
+      background-position: -20rem 3rem;
+      background-size: cover;
+    }
+
+    @include media-breakpoint-up(md) {
+      background-position: -30rem 0;
+    }
+
+    @include media-breakpoint-up(xl) {
+      background-size: unset;
+      margin-top: 15rem;
+    }
+  }
+
   .title {
     color: $testimonials-title;
+  }
+
+  .description {
+    color: $testimonials-title;
+  }
+
+  .card-body {
+    color: $placeholder-color;
+    background-color: $testimonials-card-bg;
+  }
+
+  .card-footer {
+    background-color: $testimonials-card-footer-bg;
+  }
+
+  .card-description {
+    font-size: 0.87rem;
+  }
+
+  .card-pills {
+    font-size: 0.63rem;
+
+    .card-pill {
+      color: $neon;
+      border: 1px solid $neon;
+    }
+  }
+
+  .footer-title {
+    font-size: 0.63rem;
+  }
+
+  .footer-description {
+    font-size: 0.75rem;
+  }
+
+  .working-with-me {
+    color: $placeholder-color;
+    font-size: 1.7rem;
+
+    @include media-breakpoint-up(sm) {
+      font-size: 2.5rem;
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: 3.75rem;
+    }
+  }
+
+  .btn-lets-talk {
+    font-size: 1.25rem;
+    background: $placeholder-color;
+    color: $testimonials-card-bg;
+  
+    &:hover {
+      background: $testimonials-card-bg;
+      color: $placeholder-color;
+    }
+  }
+
+  .icon-contact {
+    color: $testimonials-card-bg;
+    background: $placeholder-color;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.7rem;
+  
+    i {
+      font-size: 2rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+      height: 6rem;
+      width: 6rem;
+      line-height: 7.45rem;
+
+      i {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  #lottie-pink-2 {
+    display: none;
+
+    @include media-breakpoint-up(sm) {
+      display: block;
+      position: absolute;
+      z-index: -1;
+      top: 10%;
+    }
+
+    @include media-breakpoint-up(md) {
+      top: -10%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      top: -50%;
+    }
+  }
+
+  .modal-dialog {
+    max-width: 90% !important;
+    margin: auto !important;
+  }
+
+  #letsTalkModal {
+    .title {
+      font-size: 2.23rem;
+    }
+
+    .form-container {
+      font-size: 1.3rem;
+      color: $contact-form-color;
+      max-width: 30.6rem;
+
+      input:not([type=submit]),
+      textarea {
+        background-color: $contact-form-input-bg;
+      }
+
+      input {
+        height: 4.19rem;
+      }
+
+      input[type=submit] {
+        background-color: $contact-form-submit-bg;
+      }
+
+    }
+  }
+
+  .lottie-stars,
+  .lottie-fireworks {
+    max-width: 10rem;
+  }
+
+  .testimonials-cards-container {
+    position: relative;
+    z-index: 3;
   }
 }

@@ -5,19 +5,57 @@
     font-size: 1.88rem;
   }
 
-  .bg-right {
-    background-image: url("images/who-is/bg-right.png");
-    background-repeat: no-repeat;
-    background-position: 43rem 15rem;
-  }
-
   .lang {
-    font-size: 4.1rem;
     font-weight: 700;
-    line-height: 4.1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+
+    @include media-breakpoint-up(xl) { 
+      font-size: 4.1rem;
+      line-height: 4.1rem;
+    }
   }
 
   .flag {
-    border-radius: 20px;
+    img {
+      max-width: 5rem;
+      border-radius: 15%;
+    }
+  }
+  
+  .flags-xl-container {
+    @media screen and (max-width: 1630px) {
+      justify-content: center;
+    }
+  }
+
+  .who-is-description {
+    @media screen and (max-width: 1630px) {
+      max-width: 85%;
+      text-align: center;
+    }
+  }
+
+  .mario-container {
+    @media screen and (max-width: 1630px) {
+      display: none;
+    }
+
+    .mario {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+  
+      img {
+        max-width: 83%;
+      }
+    }
+  }
+
+  #lottie-white {
+    position: absolute;
+    top: 39%;
+    right: 0;
   }
 }

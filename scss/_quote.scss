@@ -1,14 +1,28 @@
 .quote {
   background: $placeholder-color;
 
-  .bg-left {
-    background-image: url("images/quote/bg-left.png");
-    background-repeat: no-repeat;
-    background-position: -4rem 19rem;
+  #lottie-pink {
+    margin-bottom: -10rem;
   }
 
-  .bg-right {
-    background-image: url("images/quote/bg-right.png");
-    background-repeat: no-repeat;
+  .left-quote {
+    max-width: 3.5rem;
+    position: absolute;
+    left: 18%;
+    top: 8%;
+  }
+
+  .right-quote {
+    max-width: 3.5rem;
+    position: absolute;
+    top: 60%;
+  }
+
+  .quote-text {
+    padding: 3rem 0;
+
+    @include media-breakpoint-up(xl) { 
+      padding: 7rem 0;
+    }
   }
 }
