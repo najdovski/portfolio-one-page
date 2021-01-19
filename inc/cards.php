@@ -53,7 +53,7 @@
             <div class="card-3-img-div"></div>
           </div>
           <div class="col-12 col-md-6 col-xl-4 border-0 mt-3 mt-md-0 mt-xl-0 pl-md-2 pl-xl-0 pr-xl-2">
-          <div class="fs-big card-title mb-0 p-3 bg-white">Ship GIF</div>
+          <div class="fs-big card-title mb-0 p-3 bg-white">Loopable GIFs</div>
             <div class="card-4-bg"></div>
           </div>
           <div class="col-12 col-xl-4 border-0 pl-xl-3 mt-3 mt-xl-0 last-card">
@@ -76,14 +76,34 @@
 </div>
 
 
-<!-- DM Video Modal -->
-<div class="modal fade pr-0" id="dmVideoModal" tabindex="-1" role="dialog" aria-labelledby="dmVideoModalTitle" aria-hidden="true">
+<!-- Old DM Video Modal -->
+<!-- <div class="modal fade pr-0" id="dmVideoModal" tabindex="-1" role="dialog" aria-labelledby="dmVideoModalTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-body modal-placeholder">
         <div class="row">
           <div class="col-12 align-self-center font-weight-bold">
             VIDEO PLACEHOLDER
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- DM Video Modal -->
+<div class="modal fade" id="dmVideoModal" tabindex="-1" role="dialog" aria-labelledby="dmVideoModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content bg-unset border-0">
+      <div class="modal-body p-0 m-0">
+        <div class="container-fluid p-0 m-0">
+          <div class="row">
+            <div class="col-12">
+              <video controls="controls" class="w-100 h-100">
+                <source src="https://dl.dropboxusercontent.com/s/ag9tj8zxynjo020/02_Final.mp4?dl=0" type="video/mp4"></source>
+              </video>
+            </div>
           </div>
         </div>
       </div>

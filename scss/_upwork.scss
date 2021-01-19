@@ -3,8 +3,8 @@
 
   .percentage-current {
     color: $percentage-color;
-    font-weight: 600;
-    text-shadow: 1px 1px 4px black;
+    font-family: 'Montserrat-Bold';
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     font-size: 4rem;
     line-height: 4rem;
 
@@ -19,7 +19,7 @@
     }
 
     @include media-breakpoint-up(lg) {
-      text-shadow: 2px 2px 4px black;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
       font-size: 5.63rem;
       line-height: 5.63rem;
     }
@@ -28,6 +28,7 @@
   .percentage-100 {
     color: $percentage-color;
     font-size: 2rem;
+    font-family: 'Montserrat-ExtraLight';
 
     @include media-breakpoint-up(md) {
       font-size: 2.7rem;
@@ -36,6 +37,10 @@
     @include media-breakpoint-up(lg) {
       font-size: 3.13rem;
     }
+  }
+
+  a.upwork-text {
+    font-family: 'Montserrat-ExtraLight';
   }
 
   .upwork-text {

@@ -18,20 +18,23 @@
     </div>
     <div class="col-12 text-center text-primary text-center font-weight-bold fs-giant">
       Graphics designer / Video Editor <br class="d-none d-xl-block" />
-      working with startups to create ‍growth-driven <br class="d-none d-xl-block" />
+      working with Startups and Individuals to create ‍growth-driven <br class="d-none d-xl-block" />
       and unique Products & Brands
+
     </div>
     <div class="col-auto btn-container">
       <button class="btn btn-danger py-3 text-white hero-button fs-smaller" data-toggle="modal" data-target="#calendlyModal">FREE CONSULTATION <i class="fas fa-arrow-right ml-2"></i></button>
 
       <!-- Calendly Modal -->
-      <div class="modal pr-0" id="calendlyModal" tabindex="-1" role="dialog" aria-labelledby="calendlyModalTitle" aria-hidden="true">
+      <div class="modal modal-custom pr-0" id="calendlyModal" tabindex="-1" role="dialog" aria-labelledby="calendlyModalTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-body modal-placeholder">
-              <div class="row">
-                <div class="col-12 align-self-center font-weight-bold">
-                  CALENDLY PLACEHOLDER
+            <div class="modal-body modal-placeholder p-0 m-0">
+              <div class="container-fluid h-100 p-0 m-0 overflow-hidden">
+                <div class="row h-100">
+                  <div class="col-12 font-weight-bold h-100">
+                    <iframe class="w-100 h-100 border-0" src="https://calendly.com/markarrow300?fbclid=IwAR0E5CQ1mRJF_Tg9z6pP5sgkKg3qdYRTzI0W8HNhSboUmH61ItAVOzEBRyo"></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -40,8 +43,8 @@
       </div>
 
     </div>
-    <div class="col-12 text-center mt-3 fs-small open-portfolio-here">
-      Or open the PDF Portfolio <a href="#">here</a>
+    <div class="col-12 text-center mt-3 fs-small text-secondary">
+      Or open the PDF Portfolio <a class="text-secondary" href="#">here</a>
     </div>
   </div>
 </div>

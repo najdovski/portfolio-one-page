@@ -46,22 +46,6 @@
   }
 }
 
-.open-portfolio-here {
-  color: white;
-
-  a {
-    color: white;
-  }
-
-  @media screen and (max-height: 1062px) {
-    color: $danger;
-
-    a {
-      color: $yellow;
-    }
-  }
-}
-
 .hero-description {
   margin-top: 2rem;
 
@@ -71,5 +55,14 @@
 
   @include media-breakpoint-up(xl) { 
     margin-top: 6rem;
+  }
+}
+
+#calendlyModal {
+  @media screen and (min-width: 1800px) {
+    iframe {
+      background: white;
+      padding-top: 2.5rem;
+    }
   }
 }

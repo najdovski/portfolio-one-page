@@ -17,6 +17,8 @@
   }
 
   .who-is-description {
+    font-size: 1.25rem;
+
     @include media-breakpoint-up(xl) { 
       max-width: 60.82rem;
     }

@@ -1,5 +1,24 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "Montserrat-ExtraLight";
+  src: url("fonts/Montserrat-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ArialMT";
+  src: url("fonts/ArialMT.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Arial-BoldMT";
+  src: url("fonts/Arial-BoldMT.ttf") format("truetype");
+}
 * {
   font-family: "Montserrat", sans-serif;
 }
@@ -50,7 +69,15 @@ body {
   max-width: 1920px !important;
 }
 
-.modal {
+video:focus {
+  outline: none;
+}
+
+.bg-unset {
+  background: unset !important;
+}
+
+.modal.modal-custom {
   height: 100%;
   margin: 0;
   transform: translate(0);
@@ -58,14 +85,14 @@ body {
   margin-left: auto;
   transform: translateX(100%);
 }
-.modal .modal-dialog {
+.modal.modal-custom .modal-dialog {
   padding: 5rem 0 !important;
   width: 100% !important;
   height: 100% !important;
   margin: 0 !important;
   max-width: none;
 }
-.modal .modal-content {
+.modal.modal-custom .modal-content {
   height: 100% !important;
   border-radius: 0 !important;
   background-color: #ececec !important;
@@ -73,10 +100,10 @@ body {
   border: 0;
   border-radius: 0;
 }
-.modal .modal-content .modal-body {
+.modal.modal-custom .modal-content .modal-body {
   overflow-y: auto;
 }
-.modal .modal-placeholder {
+.modal.modal-custom .modal-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,14 +111,20 @@ body {
   color: #221B57;
 }
 @media (min-width: 768px) {
-  .modal .modal-placeholder {
+  .modal.modal-custom .modal-placeholder {
     font-size: 7.57rem;
   }
 }
-.modal.show {
+.modal.modal-custom.show {
   transform: translateX(0);
 }
 
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px;
+  }
+}
 .mt-6 {
   margin-top: calc(6 * 1rem) !important;
 }
@@ -1045,21 +1078,6 @@ body {
   }
 }
 
-.open-portfolio-here {
-  color: white;
-}
-.open-portfolio-here a {
-  color: white;
-}
-@media screen and (max-height: 1062px) {
-  .open-portfolio-here {
-    color: #F08299;
-  }
-  .open-portfolio-here a {
-    color: #FDE17E;
-  }
-}
-
 .hero-description {
   margin-top: 2rem;
 }
@@ -1074,13 +1092,20 @@ body {
   }
 }
 
+@media screen and (min-width: 1800px) {
+  #calendlyModal iframe {
+    background: white;
+    padding-top: 2.5rem;
+  }
+}
+
 .upwork {
   background: #EEEEEE;
 }
 .upwork .percentage-current {
   color: #292779;
-  font-weight: 600;
-  text-shadow: 1px 1px 4px black;
+  font-family: "Montserrat-Bold";
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
   font-size: 4rem;
   line-height: 4rem;
 }
@@ -1098,7 +1123,7 @@ body {
 }
 @media (min-width: 992px) {
   .upwork .percentage-current {
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     font-size: 5.63rem;
     line-height: 5.63rem;
   }
@@ -1106,6 +1131,7 @@ body {
 .upwork .percentage-100 {
   color: #292779;
   font-size: 2rem;
+  font-family: "Montserrat-ExtraLight";
 }
 @media (min-width: 768px) {
   .upwork .percentage-100 {
@@ -1116,6 +1142,9 @@ body {
   .upwork .percentage-100 {
     font-size: 3.13rem;
   }
+}
+.upwork a.upwork-text {
+  font-family: "Montserrat-ExtraLight";
 }
 .upwork .upwork-text {
   color: #382D8D;
@@ -1312,21 +1341,41 @@ body {
 .quote .left-quote {
   position: absolute;
   top: 3rem;
-  left: 7rem;
+  left: 3rem;
 }
 @media (max-width: 767.98px) {
   .quote .left-quote {
     width: 2rem;
   }
 }
+@media (min-width: 576px) {
+  .quote .left-quote {
+    left: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .quote .left-quote {
+    left: 7rem;
+  }
+}
 .quote .right-quote {
   position: absolute;
   bottom: 3rem;
-  right: 7rem;
+  right: 3rem;
 }
 @media (max-width: 767.98px) {
   .quote .right-quote {
     width: 2rem;
+  }
+}
+@media (min-width: 576px) {
+  .quote .right-quote {
+    right: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .quote .right-quote {
+    right: 7rem;
   }
 }
 .quote .quote-text {
@@ -1347,6 +1396,7 @@ body {
 
 .cards-container {
   background-color: #FDE17E;
+  font-family: "ArialMT";
 }
 .cards-container .cards-max-width-title {
   max-width: 72rem;
@@ -1367,6 +1417,7 @@ body {
   color: #221B57;
 }
 .cards-container .card-title {
+  font-family: "Arial-BoldMT";
   font-weight: 900;
 }
 .cards-container .card {
@@ -1452,6 +1503,9 @@ body {
     font-size: 4.1rem;
     line-height: 4.1rem;
   }
+}
+.who-is .who-is-description {
+  font-size: 1.25rem;
 }
 @media (min-width: 1200px) {
   .who-is .who-is-description {
@@ -1570,6 +1624,11 @@ body {
     background-position: -20rem 33rem;
   }
 }
+@media (min-width: 1200px) {
+  .testimonials {
+    background-position: -18rem 26rem;
+  }
+}
 .testimonials .interested-working-div {
   margin-top: 2rem;
 }
@@ -1679,10 +1738,23 @@ body {
   margin: auto !important;
 }
 .testimonials #letsTalkModal .title {
-  font-size: 2.23rem;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1500px) {
+  .testimonials #letsTalkModal .title {
+    font-size: 2.23rem;
+  }
+}
+.testimonials #letsTalkModal .modal-body {
+  overflow-y: initial !important;
+}
+@media (max-width: 767.98px) {
+  .testimonials #letsTalkModal .modal-body {
+    margin-top: -3rem;
+    padding: 0 0 0 2rem !important;
+  }
 }
 .testimonials #letsTalkModal .modal-content {
-  margin-top: 3.5%;
   max-height: auto !important;
   background: unset !important;
 }
@@ -1692,19 +1764,60 @@ body {
   background-size: cover;
   background-position: center;
 }
+@media (min-width: 1200px) {
+  .testimonials #letsTalkModal .form-img-container {
+    background: white;
+  }
+}
 .testimonials #letsTalkModal .form-container {
   font-size: 1.3rem;
   color: #666666;
+}
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+  .testimonials #letsTalkModal .form-container {
+    padding: 1.2rem 4rem !important;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .testimonials #letsTalkModal .form-container {
+    padding: 4rem !important;
+  }
 }
 .testimonials #letsTalkModal .form-container input:not([type=submit]),
 .testimonials #letsTalkModal .form-container textarea {
   background-color: #D4D4D4;
 }
+.testimonials #letsTalkModal .form-container textarea {
+  max-height: 10rem;
+}
 .testimonials #letsTalkModal .form-container input {
   height: 4.19rem;
+  margin-bottom: 0.3rem;
+}
+@media screen and (min-width: 1500px) {
+  .testimonials #letsTalkModal .form-container .lets-talk-title {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .testimonials #letsTalkModal .form-container label {
+    font-size: 0.85rem;
+  }
 }
 .testimonials #letsTalkModal .form-container input[type=submit] {
   background-color: #D05D79;
+}
+@media screen and (max-width: 1500px) {
+  .testimonials #letsTalkModal .form-container input[type=text],
+.testimonials #letsTalkModal .form-container input[type=email] {
+    max-height: 2.8rem;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .testimonials #letsTalkModal .form-container input[type=text],
+.testimonials #letsTalkModal .form-container input[type=email] {
+    margin-bottom: 1.4rem;
+  }
 }
 .testimonials .lottie-fireworks {
   transform: translate(-50%, -50%);
@@ -1722,15 +1835,36 @@ body {
 }
 .testimonials .single-card-col .card-footer-custom {
   background-color: #1b244d;
-  height: 20rem;
+}
+@media (min-width: 576px) {
+  .testimonials .single-card-col .card-footer-custom {
+    height: 20rem;
+  }
 }
 .testimonials .single-card-col .card-footer-custom .footer-description-custom {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
 }
 @media screen and (min-width: 1520px) {
   .testimonials .d-custom-block {
     display: block !important;
   }
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #292779;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: #292779;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #FD4D73;
 }
 
 /*!
@@ -11675,6 +11809,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.font-weight-bold {
+  font-family: "Montserrat-Bold" !important;
+}
+
 .fs-giant {
   font-size: 1.6em;
 }
@@ -11734,7 +11872,7 @@ h3 {
 }
 
 .title-shadow {
-  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  text-shadow: 1.3px 1.3px 8px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */

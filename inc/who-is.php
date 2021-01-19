@@ -5,7 +5,7 @@
         <div class="col-12 title title-shadow text-center font-weight-bold">
           Who is MarkArrow
         </div>
-        <div class="col-12 col-xl mt-5 fs-big who-is-description text-center text-xl-left">
+        <div class="col-12 col-xl mt-5 who-is-description text-center text-xl-left">
           I am a recent graduate of the Faculty of Informatics and Communication Technologies. My graduation project
           was in the field of Robotics. I was working as a graphics designer, but I have decided to learn video editing
           after a couple of years. I've been editing for the last three years and have known since then I would make a

@@ -1,5 +1,6 @@
 .cards-container {
   background-color: $yellow;
+  font-family: 'ArialMT';
 
   .cards-max-width-title {
     max-width: 72rem;
@@ -23,6 +24,7 @@
   }
 
   .card-title {
+    font-family: 'Arial-BoldMT';
     font-weight: 900;
   }
   

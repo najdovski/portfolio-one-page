@@ -1,6 +1,3 @@
-// jQuey scrollTop() -> vanilla JS (for future reference)
-// window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
-
 // Hero bg lottie
 lottie.loadAnimation({
   container: document.querySelector('#hero-bg-lottie'),
@@ -143,16 +140,18 @@ lottie.loadAnimation({
 
 // Fireworks lottie
 document.querySelectorAll('.lottie-fireworks').forEach(container => {
-  lottie.loadAnimation({
+  const fireworks = lottie.loadAnimation({
     container: container,
     renderer: 'svg',
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
     path: 'lotties/fireworks.json',
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid meet'
     }
   });
+
+  startOnScrollReach(fireworks, document.querySelector('.testimonials-cards-container'), 1000);
 });
 
 // Pink 2 lottie
@@ -196,12 +195,17 @@ function submitForm() {
   })
   .then(response => response)
   .then(data => {
-    form.querySelector('#name').value = '';
-    form.querySelector('#email').value = '';
-    form.querySelector('#subject').value = '';
-    form.querySelector('#message').value = '';
-    form.classList.remove('was-validated');
-    document.querySelector('#email-sent').classList.remove('d-none');
+    console.log(data);
+    if (data.status !== 404) {
+      form.querySelector('#name').value = '';
+      form.querySelector('#email').value = '';
+      form.querySelector('#subject').value = '';
+      form.querySelector('#message').value = '';
+      form.classList.remove('was-validated');
+      document.querySelector('#email-sent').classList.remove('d-none');
+    } else {
+      throw(data);
+    }
   })
   .catch((error) => {
     document.querySelector('#email-not-sent').classList.remove('d-none');
@@ -225,10 +229,29 @@ function debounce(func, wait = 20, immediate = true) {
 };
 
 // Fire off when scroll is beyond parents position
-function startOnScrollReach(animation, parentElement) {
+function startOnScrollReach(animation, parentElement, delay = 0) {
   window.addEventListener('scroll', debounce(() => {
     if (parentElement.getBoundingClientRect().top < 700) {
-      animation.play();
+      setTimeout(() => {
+        animation.play();
+      }, delay);
     }
   }));
 }
+
+// Video modals
+const modals = document.querySelectorAll('.modal');
+modals.forEach(modal => {
+  $(modal).on('show.bs.modal', () => {
+    const video = modal.querySelector('video');
+    if (!video) return;
+    video.play();
+  });
+
+  $(modal).on('hide.bs.modal', () => {
+    const video = modal.querySelector('video');
+    if (!video) return;
+    video.pause();
+  });
+});
+

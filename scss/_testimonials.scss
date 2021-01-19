@@ -11,6 +11,10 @@
     background-position: -20rem 33rem;
   }
 
+  @include media-breakpoint-up(xl) {
+    background-position: -18rem 26rem;
+  }
+
   .interested-working-div {
     margin-top: 2rem;
 
@@ -129,11 +133,22 @@
 
   #letsTalkModal {
     .title {
-      font-size: 2.23rem;
+      font-size: 1.6rem;
+      @media screen and (min-width: 1500px) {
+        font-size: 2.23rem;
+      }
+    }
+
+    .modal-body {
+      overflow-y: initial !important;
+
+      @include media-breakpoint-down(sm) {
+        margin-top: -3rem;
+        padding: 0 0 0 2rem !important;
+      }
     }
 
     .modal-content {
-      margin-top: 3.5%;
       max-height: auto !important;
       background: unset !important;
     }
@@ -143,23 +158,66 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      
+    }
+
+    .form-img-container {
+      @include media-breakpoint-up(xl) {
+        background: white;
+      }
     }
 
     .form-container {
       font-size: 1.3rem;
       color: $contact-form-color;
 
+      @media screen and (min-width: 1200px) and (max-width: 1499px) {
+        padding: 1.2rem 4rem !important;
+      }
+
+      @media screen and (min-width: 1500px) {
+        padding: 4rem !important;
+      }
+
       input:not([type=submit]),
       textarea {
         background-color: $contact-form-input-bg;
       }
 
+      textarea {
+        max-height: 10rem;
+      }
+
       input {
         height: 4.19rem;
+        margin-bottom: 0.3rem;
+      }
+
+      .lets-talk-title {
+        @media screen and (min-width: 1500px) {
+          margin-bottom: 3rem;
+        }
+      }
+
+      label {
+        @media screen and (max-width: 1500px) {
+          font-size: 0.85rem;
+        }
       }
 
       input[type=submit] {
         background-color: $contact-form-submit-bg;
+      }
+
+      input[type=text],
+      input[type=email] {
+        @media screen and (max-width: 1500px) {
+          max-height: 2.8rem;
+        }
+
+        @media screen and (min-width: 1500px) {
+          margin-bottom: 1.4rem;
+        }
       }
 
     }
@@ -183,10 +241,12 @@
 
     .card-footer-custom {
       background-color: $testimonials-card-footer-bg;
-      height: 20rem;
+      @include media-breakpoint-up(sm) {
+        height: 20rem;
+      }
 
       .footer-description-custom {
-        font-size: 0.75rem;
+        font-size: 0.72rem;
       }
     }
   }

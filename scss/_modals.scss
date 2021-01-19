@@ -1,4 +1,4 @@
-.modal {
+.modal.modal-custom {
   height: 100%;
   margin: 0;
   transform: translate(0);
@@ -16,11 +16,9 @@
 
   .modal-content  {
     height: 100% !important;
-    // height: auto !important;
-    // min-height: 95% !important;
-    // max-height: 95% !important;
     border-radius: 0 !important;
     background-color: #ececec !important;
+    // background-color: unset;
 
     height: inherit;
     border: 0;
@@ -45,5 +43,12 @@
 
   &.show {
     transform: translateX(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
   }
 }

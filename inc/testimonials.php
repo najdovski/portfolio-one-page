@@ -41,7 +41,7 @@
                         <div class="col-auto lottie-stars mb-3"></div>
                       </div>
                     </div>
-                    <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                    <div class="col-12 footer-description-custom px-3 pb-5 font-weight-bold">
                       "If you are looking for an animator who will <br class="d-none d-custom-block" />
                       not only deliver on time, <br class="d-none d-custom-block" />
                       and on budget, but will also go out of his way <br class="d-none d-custom-block" />
@@ -79,7 +79,7 @@
                         <div class="col-auto lottie-stars mb-3"></div>
                       </div>
                     </div>
-                    <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                    <div class="col-12 footer-description-custom px-3 pb-5 font-weight-bold">
                       "Always a pleasure to work with Mario. <br class="d-none d-custom-block" />
                       He has good communication + animation <br class="d-none d-custom-block" />
                       skills - what more can you ask ? <br class="d-none d-custom-block" />
@@ -115,7 +115,7 @@
                       <div class="col-auto lottie-stars mb-3"></div>
                     </div>
                   </div>
-                  <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                  <div class="col-12 footer-description-custom px-3 pb-5 font-weight-bold">
                     "We really enjoyed working with Mario, he is a <br class="d-none d-custom-block" />
                     very talented and very nice guy! He was easy <br class="d-none d-custom-block" />
                     to work with, was creative in helping us solve <br class="d-none d-custom-block" />
@@ -152,7 +152,7 @@
                         <div class="col-auto lottie-stars mb-3"></div>
                       </div>
                     </div>
-                    <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                    <div class="col-12 footer-description-custom px-3 pb-5 font-weight-bold">
                     "Mario is professional, skilled and just overall <br class="d-none d-custom-block" />
                     great to work with. One of the freelancers <br class="d-none d-custom-block" />
                     that we keep at our side constantly."
@@ -168,19 +168,19 @@
   </div>
   <div class="container-fluid interested-working-div">
   <div class="container position-relative" style="z-index: 2">
-      <div class="row justify-content-center">
-        <div class="col-9 text-center working-with-me font-weight-bold title-shadow">
-          Interested in working <br class="d-none d-lg-block" /> with me?
-        </div>
-        <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4 px-5 my-4">
-          <button class="btn btn-block btn-lets-talk py-3 font-weight-bold rounded-0" data-toggle="modal" data-target="#letsTalkModal">LET'S TALK</button>
-        </div>
+    <div class="row justify-content-center">
+      <div class="col-9 text-center working-with-me font-weight-bold title-shadow">
+        Interested in working <br class="d-none d-lg-block" /> with me?
       </div>
+      <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4 px-5 my-4">
+        <button class="btn btn-block btn-lets-talk py-3 font-weight-bold rounded-0" data-toggle="modal" data-target="#letsTalkModal">LET'S TALK</button>
+      </div>
+    </div>
       <div class="row justify-content-center">
         <div class="col-12 col-sm-7 col-3">
           <div class="row justify-content-center pb-3 pb-xl-5">
-            <div class="col-auto icon-contact rounded-circle text-center mr-4"><a target="_blank" href="http://linkedin.com/"><i class="fab fa-linkedin"></i></a></div>
-            <div class="col-auto icon-contact rounded-circle text-center ml-4"><a href="mailto:markarrow@outlook.com"><i class="far fa-envelope"></i></a></div>
+            <div class="col-auto icon-contact rounded-circle text-center mr-4"><a target="_blank" href="https://www.linkedin.com/in/mario-todorovski-208577193/"><i class="fab fa-linkedin"></i></a></div>
+            <div class="col-auto icon-contact rounded-circle text-center ml-4"><a href="mailto:markarrow300@gmail.com"><i class="far fa-envelope"></i></a></div>
           </div>
         </div>
       </div>
@@ -190,33 +190,33 @@
 
   <!-- Let's Talk Modal -->
   <div class="modal fade pr-0" id="letsTalkModal" tabindex="-1" role="dialog" aria-labelledby="letsTalkModalTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
+    <div class="modal-dialog modal-dialog-centered h-100" role="document">
+      <div class="modal-content border-0">
         <div class="modal-body py-xl-0">
-          <div class="form-img-container row bg-white w-100">
+          <div class="form-img-container row w-100 h-100">
             <div class="d-none d-xl-block col-xl px-0 image-contact"></div>
-            <div class="col">
-              <div class="form-container row py-4 px-3 px-xl-5">
-                <div class="col-12 col-sm text-center text-sm-left px-0 title font-weight-bold">Let's Talk</div>
-                  <div class="col-12 col-sm text-center text-sm-right px-0 text-right align-self-center">
-                    <img src="images/testimonials/logo-icon.png">
+            <div class="col align-self-center bg-white">
+              <div class="form-container row py-2 px-3 px-xl-5">
+                <div class="col-12 col-sm text-center text-sm-left px-0 title font-weight-bold align-self-end lets-talk-title">Let's Talk</div>
+                <div class="col-12 col-sm text-center text-sm-right px-0 text-right align-self-center align-self-xl-end lets-talk-title">
+                  <img src="images/testimonials/logo-icon.png">
                 </div>
-                <form id="contact-form" novalidate method="POST" class="mt-5 row justify-content-center">
-                  <div id="email-sent" class="col-12 text-center py-3 text-white bg-success mb-4 d-none">Email sent successfully</div>
-                  <div id="email-not-sent" class="col-12 text-center py-3 text-white bg-danger mb-4 d-none">Email not sent. Please try again</div>
+                <form id="contact-form" novalidate method="POST" class="row justify-content-center">
+                  <div id="email-sent" class="col-12 text-center py-3 text-white bg-success mb-4 rounded d-none">Email sent successfully</div>
+                  <div id="email-not-sent" class="col-12 text-center py-3 text-white bg-danger mb-4 rounded d-none">Email not sent. Please try again</div>
                   <div class="col-12">
                     <label class="font-weight-bold" for="name">Name</label>
-                    <input id="name" name="name" type="text" class="form-control mb-3" placeholder="Enter your name here" required>
+                    <input id="name" name="name" type="text" class="form-control" placeholder="Enter your name here" required>
                   </div>
 
                   <div class="col-12">
                     <label class="font-weight-bold" for="email">Email</label>
-                    <input id="email" name="email" type="email" class="form-control mb-3" placeholder="Enter your email here" required>
+                    <input id="email" name="email" type="email" class="form-control" placeholder="Enter your email here" required>
                   </div>
 
                   <div class="col-12">
                     <label class="font-weight-bold" for="subject">Subject</label>
-                    <input id="subject" name="subject" type="text" class="form-control mb-3" placeholder="Enter subject here">
+                    <input id="subject" name="subject" type="text" class="form-control" placeholder="Enter subject here">
                   </div>
 
                   <div class="col-12">

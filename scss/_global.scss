@@ -47,3 +47,13 @@ body {
 .full-hd-max-width {
   max-width: 1920px !important;
 }
+
+video {
+  &:focus {
+    outline: none;
+  }
+}
+
+.bg-unset {
+  background: unset !important;
+}
