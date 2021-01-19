@@ -17,7 +17,7 @@
       </div>
       <div class="row">
         <div class="col-12 flags-container mt-5">
-          <div class="row justify-content-center justify-content-xl-start">
+          <div class="row justify-content-center justify-content-xl-start flags-row">
             <div class="col-12 col-sm-auto">
               <div class="row flag no-gutters justify-content-center justify-content-sm-left">
                 <div class="col-auto pr-2"><img src="images/who-is/usa.png" class="w-100"></div>

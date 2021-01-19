@@ -24,6 +24,10 @@
     @media screen and (min-width: 1200px) and (max-width: 1500px) {
       max-width: 48rem;
     }
+
+    @media screen and (min-width: 1921px) {
+      max-width: 100% !important;
+    }
   }
 
   .flags-container {
@@ -33,6 +37,14 @@
 
     @media screen and (min-width: 1200px) and (max-width: 1500px) {
       max-width: 48rem;
+    }
+    
+    @media screen and (min-width: 1921px) {
+      max-width: 100% !important;
+
+      .flags-row {
+        justify-content: center !important;
+      }
     }
 
     .flag {
@@ -71,6 +83,10 @@
     @media screen and (min-width: 1501px) and (max-width: 1650px) {
       width: 40rem;
     }
+
+    @media screen and (min-width: 1921px) {
+      display: none !important;
+    }
   }
 
   #mario {
@@ -81,6 +97,10 @@
 
     @media screen and (min-width: 1501px) {
       width: auto !important;
+    }
+
+    @media screen and (min-width: 1921px) {
+      display: none;
     }
 
     img {

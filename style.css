@@ -59,17 +59,14 @@ body {
   transform: translateX(100%);
 }
 .modal .modal-dialog {
+  padding: 5rem 0 !important;
   width: 100% !important;
-  height: 90% !important;
+  height: 100% !important;
   margin: 0 !important;
-  padding: 0 !important;
   max-width: none;
 }
 .modal .modal-content {
-  margin-top: 4.5%;
-  height: auto !important;
-  min-height: 95% !important;
-  max-height: 95% !important;
+  height: 100% !important;
   border-radius: 0 !important;
   background-color: #ececec !important;
   height: inherit;
@@ -1351,6 +1348,12 @@ body {
 .cards-container {
   background-color: #FDE17E;
 }
+.cards-container .cards-max-width-title {
+  max-width: 72rem;
+}
+.cards-container .cards-max-width {
+  max-width: 65.37rem;
+}
 .cards-container .title {
   color: #221B57;
   font-size: 1.4rem;
@@ -1460,6 +1463,11 @@ body {
     max-width: 48rem;
   }
 }
+@media screen and (min-width: 1921px) {
+  .who-is .who-is-description {
+    max-width: 100% !important;
+  }
+}
 @media (min-width: 1200px) {
   .who-is .flags-container {
     max-width: 60.82rem;
@@ -1468,6 +1476,14 @@ body {
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
   .who-is .flags-container {
     max-width: 48rem;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .who-is .flags-container {
+    max-width: 100% !important;
+  }
+  .who-is .flags-container .flags-row {
+    justify-content: center !important;
   }
 }
 .who-is .flags-container .flag img {
@@ -1509,6 +1525,11 @@ body {
     width: 40rem;
   }
 }
+@media screen and (min-width: 1921px) {
+  .who-is #lottie-white {
+    display: none !important;
+  }
+}
 .who-is #mario {
   position: absolute;
   bottom: 0;
@@ -1518,6 +1539,11 @@ body {
 @media screen and (min-width: 1501px) {
   .who-is #mario {
     width: auto !important;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .who-is #mario {
+    display: none;
   }
 }
 .who-is #mario img {
@@ -1532,8 +1558,17 @@ body {
 .testimonials {
   background-image: url("images/testimonials/bottom.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  background-position: -20rem 170rem;
+}
+@media (min-width: 576px) {
+  .testimonials {
+    background-position: -20rem 67rem;
+  }
+}
+@media (min-width: 992px) {
+  .testimonials {
+    background-position: -20rem 33rem;
+  }
 }
 .testimonials .interested-working-div {
   margin-top: 2rem;
@@ -1541,19 +1576,11 @@ body {
 @media (min-width: 576px) {
   .testimonials .interested-working-div {
     margin-top: 5rem;
-    background-position: -20rem 3rem;
-    background-size: cover;
-  }
-}
-@media (min-width: 768px) {
-  .testimonials .interested-working-div {
-    background-position: -30rem 0;
   }
 }
 @media (min-width: 1200px) {
   .testimonials .interested-working-div {
-    background-size: unset;
-    margin-top: 15rem;
+    margin-top: 12rem;
   }
 }
 .testimonials .title {
@@ -1565,9 +1592,6 @@ body {
 .testimonials .card-body {
   color: #221B57;
   background-color: #FFC107;
-}
-.testimonials .card-footer {
-  background-color: #1b244d;
 }
 .testimonials .card-description {
   font-size: 0.87rem;
@@ -1582,30 +1606,21 @@ body {
 .testimonials .footer-title {
   font-size: 0.63rem;
 }
-.testimonials .footer-description {
-  font-size: 0.75rem;
-}
 .testimonials .working-with-me {
   color: #221B57;
-  font-size: 1.7rem;
-}
-@media (min-width: 576px) {
-  .testimonials .working-with-me {
-    font-size: 2.5rem;
-  }
+  font-size: 2rem;
 }
 @media (min-width: 768px) {
   .testimonials .working-with-me {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
 }
 @media (min-width: 1200px) {
   .testimonials .working-with-me {
-    font-size: 3.75rem;
+    font-size: 3rem;
   }
 }
 .testimonials .btn-lets-talk {
-  font-size: 1.25rem;
   background: #221B57;
   color: #FFC107;
 }
@@ -1634,24 +1649,29 @@ body {
   }
 }
 .testimonials #lottie-pink-2 {
-  display: none;
+  position: absolute;
+  z-index: -1;
+  width: 50rem;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 40rem;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .testimonials #lottie-pink-2 {
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 10%;
-  }
-}
-@media (min-width: 768px) {
-  .testimonials #lottie-pink-2 {
-    top: -10%;
+    width: 50rem;
+    left: 50%;
+    top: 47%;
   }
 }
 @media (min-width: 992px) {
   .testimonials #lottie-pink-2 {
-    top: -50%;
+    width: 60rem;
+  }
+}
+@media (min-width: 1200px) {
+  .testimonials #lottie-pink-2 {
+    width: 100%;
   }
 }
 .testimonials .modal-dialog {
@@ -1686,13 +1706,31 @@ body {
 .testimonials #letsTalkModal .form-container input[type=submit] {
   background-color: #D05D79;
 }
-.testimonials .lottie-stars,
 .testimonials .lottie-fireworks {
-  max-width: 10rem;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  max-width: 7rem;
+  top: 40%;
+  left: 48%;
 }
 .testimonials .testimonials-cards-container {
   position: relative;
   z-index: 3;
+}
+.testimonials .single-card-col {
+  max-width: 22rem;
+}
+.testimonials .single-card-col .card-footer-custom {
+  background-color: #1b244d;
+  height: 20rem;
+}
+.testimonials .single-card-col .card-footer-custom .footer-description-custom {
+  font-size: 0.75rem;
+}
+@media screen and (min-width: 1520px) {
+  .testimonials .d-custom-block {
+    display: block !important;
+  }
 }
 
 /*!

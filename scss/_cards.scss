@@ -1,6 +1,14 @@
 .cards-container {
   background-color: $yellow;
 
+  .cards-max-width-title {
+    max-width: 72rem;
+  }
+
+  .cards-max-width {
+    max-width: 65.37rem;
+  }
+
   .title {
     color: $placeholder-color;
     font-size: 1.4rem;

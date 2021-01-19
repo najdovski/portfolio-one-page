@@ -2,17 +2,17 @@
   <div class="row justify-content-center">
     <div class="col-12 full-hd-max-width">
       <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-10 cards-max-width-title">
           <div class="row">
             <div class="col-12 text-center text-xl-left title title-shadow font-weight-bold">
               Motion Design, Playfull Animations <br /> TV Advertisments
             </div>
-            <div class="col-12 text-center text-xl-left fs-big description mt-3 mb-4 mb-xl-0">
+            <div class="col-12 text-center text-xl-left fs-big description mt-3 mb-4">
               Bringing the boring application to life
             </div>
           </div>
         </div>
-        <div class="col-11 col-xl-9">
+        <div class="col-11 col-xl-9 cards-max-width">
           <div class="mt-3">
             <div class="row no-gutters justify-content-center justify-content-xl-start">
               <div class="card border-0 col-12 col-md-7 col-lg-6 col-xl-3 mx-lg-3 mx-xl-0">

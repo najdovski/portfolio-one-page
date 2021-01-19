@@ -12,124 +12,154 @@
     </div>
   </div>
 
-  <div class="container testimonials-cards-container">
+  <div class="container-fluid testimonials-cards-container">
     <div class="row justify-content-center">
-      <div class="col-9 col-sm-6 col-lg-3 mt-4">
-        <div class="card border-0 rounded-0 h-100">
-          <div class="card-body text-center pb-5">
-            <img src="images/testimonials/parker.png" class="my-4">
-            <div class="font-weight-bold fs-big">Parker Esmay</div>
-            <div class="card-description m-3">CEO at Blue Hare Marketing</div>
-            <div class="row justify-content-center card-pills">
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">UI/UX</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">Animation</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">JSON</div>
+      <div class="col-11 full-hd-max-width">
+        <div class="row justify-content-center">
+          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+            <div class="card border-0 rounded-0 h-100">
+              <div class="card-body text-center pb-5">
+                <img src="images/testimonials/parker.png" class="my-4">
+                <div class="font-weight-bold fs-big">Parker Esmay</div>
+                <div class="card-description m-2">CEO at <br class="d-none d-sm-block d-md-none d-lg-block" /> Blue Hare Marketing</div>
+                <br class="d-none d-lg-block d-xl-none" />
+                <div class="row justify-content-center card-pills">
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">UI/UX</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">Animation</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">JSON</div>
+                </div>
+              </div>
+              <div class="card-footer-custom border-0 rounded-0 text-white text-center row mx-0">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
+                    <div class="col-12 my-3">
+                      <div class="row justify-content-center">
+                        <div class="col-5 lottie-fireworks"></div>
+                      </div>
+                      <div class="row justify-content-center">
+                        <div class="col-auto lottie-stars mb-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                      "If you are looking for an animator who will <br class="d-none d-custom-block" />
+                      not only deliver on time, <br class="d-none d-custom-block" />
+                      and on budget, but will also go out of his way <br class="d-none d-custom-block" />
+                      to give you more options that was asked for, <br class="d-none d-custom-block" />
+                      then look no further."
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
-            <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
-            <div class="col-12 my-3">
-              <div class="row justify-content-center" style="margin-bottom: -1rem">
-                <div class="col-5 lottie-fireworks"></div>
+          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+            <div class="card border-0 rounded-0 h-100">
+              <div class="card-body text-center pb-5">
+                <img src="images/testimonials/ian.png" class="my-4">
+                <div class="font-weight-bold fs-big">Ian Balina</div>
+                <div class="card-description m-2">CEO at TokenMetrics</div>
+                <br class="d-none d-sm-block d-md-none d-lg-block" />
+                <br class="d-none d-lg-block d-xl-none" />
+                <div class="row justify-content-center card-pills">
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">crypto</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">video</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">academy</div>
+                </div>
               </div>
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-stars"></div>
+              <div class="card-footer-custom border-0 rounded-0 text-white text-center row mx-0">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
+                    <div class="col-12 my-3">
+                      <div class="row justify-content-center">
+                        <div class="col-5 lottie-fireworks"></div>
+                      </div>
+                      <div class="row justify-content-center">
+                        <div class="col-auto lottie-stars mb-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                      "Always a pleasure to work with Mario. <br class="d-none d-custom-block" />
+                      He has good communication + animation <br class="d-none d-custom-block" />
+                      skills - what more can you ask ? <br class="d-none d-custom-block" />
+                      Thanks Mario :-)"
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-12 footer-description pb-5 px-0">"If you are looking for an animator who will not only deliver on time, and on budget, but will also go out of his way to give you more options that was asked for, then look no further."</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-9 col-sm-6 col-lg-3 mt-4">
-        <div class="card border-0 rounded-0 h-100">
-          <div class="card-body text-center pb-5">
-            <img src="images/testimonials/ian.png" class="my-4">
-            <div class="font-weight-bold fs-big">Ian Balina</div>
-            <div class="card-description m-3">CEO at TokenMetrics</div>
-            <br class="d-none d-sm-block d-md-none d-xl-block" />
-            <div class="row justify-content-center card-pills">
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">crypto</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">video</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">academy</div>
-            </div>
-          </div>
-          <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
-            <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
-            <div class="col-12 my-3">
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-stars"></div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-fireworks"></div>
-              </div>
-            </div>
-            <div class="col-12 footer-description pb-5 px-0">
-              "Always a pleasure to work with Mario.
-              He has good communication + animation skills - what more can you ask ?
-              Thanks Mario :-)"
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-9 col-sm-6 col-lg-3 mt-4">
-        <div class="card border-0 rounded-0 h-100">
-          <div class="card-body text-center pb-5">
-            <img src="images/testimonials/pajda.png" class="my-4">
-            <div class="font-weight-bold fs-big">David Pajda</div>
-            <div class="card-description m-3">Co-Founder at CardsPlug</div>
-            <br class="d-none d-xl-block" />
-            <div class="row justify-content-center card-pills">
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">cards</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">FIFA</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">NBA</div>
+          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+            <div class="card border-0 rounded-0 h-100">
+              <div class="card-body text-center pb-5">
+                <img src="images/testimonials/pajda.png" class="my-4">
+                <div class="font-weight-bold fs-big">David Pajda</div>
+                <div class="card-description m-2 px-lg-3 px-xl-0">Co-Founder at <br class="d-none d-sm-block d-md-none" />CardsPlug</div>
+                <br class="d-none d-lg-block" />
+                <div class="row justify-content-center card-pills">
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">cards</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">FIFA</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">NBA</div>
+                </div>
+              </div>
+              <div class="card-footer-custom border-0 rounded-0 text-white text-center row mx-0">
+                <div class="col-12">
+                  <div class="row">
+                  <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
+                  <div class="col-12 my-3">
+                    <div class="row justify-content-center">
+                      <div class="col-5 lottie-fireworks"></div>
+                    </div>
+                    <div class="row justify-content-center">
+                      <div class="col-auto lottie-stars mb-3"></div>
+                    </div>
+                  </div>
+                  <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                    "We really enjoyed working with Mario, he is a <br class="d-none d-custom-block" />
+                    very talented and very nice guy! He was easy <br class="d-none d-custom-block" />
+                    to work with, was creative in helping us solve <br class="d-none d-custom-block" />
+                    our problems, and produced excellent work. <br class="d-none d-custom-block" />
+                    Thank you, Mario!!"
+                  </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
-            <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
-            <div class="col-12 my-3">
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-stars"></div>
+          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+            <div class="card border-0 rounded-0 h-100">
+              <div class="card-body text-center pb-5">
+                <img src="images/testimonials/nemanja.png" class="my-4">
+                <div class="font-weight-bold fs-big">Nemanja Rodic</div>
+                <div class="card-description m-2">Marketing Executive at <br class="d-none d-sm-block d-md-none d-lg-block" /> Valoya</div>
+                <br class="d-none d-lg-block d-xl-none">
+                <div class="row justify-content-center card-pills">
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">cinematic</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">expo</div>
+                  <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">graphics</div>
+                </div>
               </div>
-            </div>
-            <div class="col-12">
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-fireworks"></div>
+              <div class="card-footer-custom border-0 rounded-0 text-white text-center row mx-0">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
+                    <div class="col-12 my-3">
+                      <div class="row justify-content-center">
+                        <div class="col-5 lottie-fireworks"></div>
+                      </div>
+                      <div class="row justify-content-center">
+                        <div class="col-auto lottie-stars mb-3"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 footer-description-custom px-3 pb-5 px-0">
+                    "Mario is professional, skilled and just overall <br class="d-none d-custom-block" />
+                    great to work with. One of the freelancers <br class="d-none d-custom-block" />
+                    that we keep at our side constantly."
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-12 footer-description pb-5 px-0">
-              "We really enjoyed working with Mario, he is a very talented and very nice guy! He was easy to work with, was creative in helping us solve our problems, and produced excellent work. Thank you, Mario!!"
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-9 col-sm-6 col-lg-3 mt-4">
-        <div class="card border-0 rounded-0 h-100">
-          <div class="card-body text-center pb-5">
-            <img src="images/testimonials/nemanja.png" class="my-4">
-            <div class="font-weight-bold fs-big">Nemanja Rodic</div>
-            <div class="card-description m-3">Marketing Executive at Valoya</div>
-            <div class="row justify-content-center card-pills">
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">cinematic</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">expo</div>
-              <div class="col-7 col-xl mx-5 my-1 my-xl-0 mx-xl-2 card-pill p-2 bg-white rounded">graphics</div>
-            </div>
-          </div>
-          <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
-            <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
-            <div class="col-12 my-3">
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-stars"></div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-fireworks"></div>
-              </div>
-            </div>
-            <div class="col-12 footer-description pb-5 px-0">
-            "Mario is professional, skilled and just overall great to work with. One of the freelancers that we keep at our side constantly."
             </div>
           </div>
         </div>
@@ -140,15 +170,15 @@
   <div class="container position-relative" style="z-index: 2">
       <div class="row justify-content-center">
         <div class="col-9 text-center working-with-me font-weight-bold title-shadow">
-          Interested in working with me?
+          Interested in working <br class="d-none d-lg-block" /> with me?
         </div>
-        <div class="col-12 col-sm-7 col-md-6 col-xl-4 px-5 my-4">
-          <button class="btn btn-block btn-lets-talk font-weight-bold rounded-0" data-toggle="modal" data-target="#letsTalkModal">LET'S TALK</button>
+        <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4 px-5 my-4">
+          <button class="btn btn-block btn-lets-talk py-3 font-weight-bold rounded-0" data-toggle="modal" data-target="#letsTalkModal">LET'S TALK</button>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-12 col-sm-7 col-3">
-          <div class="row justify-content-center pb-3 pb-lg-5">
+          <div class="row justify-content-center pb-3 pb-xl-5">
             <div class="col-auto icon-contact rounded-circle text-center mr-4"><a target="_blank" href="http://linkedin.com/"><i class="fab fa-linkedin"></i></a></div>
             <div class="col-auto icon-contact rounded-circle text-center ml-4"><a href="mailto:markarrow@outlook.com"><i class="far fa-envelope"></i></a></div>
           </div>

@@ -1,29 +1,25 @@
 .testimonials {
   background-image: url("images/testimonials/bottom.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  background-position: -20rem 170rem;
+
+  @include media-breakpoint-up(sm) {
+    background-position: -20rem 67rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: -20rem 33rem;
+  }
 
   .interested-working-div {
-    // background-image: url("images/testimonials/bg-2.png");
-    // background-repeat: no-repeat;
-    // background-position: -3rem 0;
-
     margin-top: 2rem;
 
     @include media-breakpoint-up(sm) {
       margin-top: 5rem;
-      background-position: -20rem 3rem;
-      background-size: cover;
-    }
-
-    @include media-breakpoint-up(md) {
-      background-position: -30rem 0;
     }
 
     @include media-breakpoint-up(xl) {
-      background-size: unset;
-      margin-top: 15rem;
+      margin-top: 12rem;
     }
   }
 
@@ -38,10 +34,6 @@
   .card-body {
     color: $placeholder-color;
     background-color: $testimonials-card-bg;
-  }
-
-  .card-footer {
-    background-color: $testimonials-card-footer-bg;
   }
 
   .card-description {
@@ -61,29 +53,20 @@
     font-size: 0.63rem;
   }
 
-  .footer-description {
-    font-size: 0.75rem;
-  }
-
   .working-with-me {
     color: $placeholder-color;
-    font-size: 1.7rem;
-
-    @include media-breakpoint-up(sm) {
-      font-size: 2.5rem;
-    }
+    font-size: 2rem;
 
     @include media-breakpoint-up(md) {
-      font-size: 3rem;
+      font-size: 2.3rem;
     }
 
     @include media-breakpoint-up(xl) {
-      font-size: 3.75rem;
+      font-size: 3rem;
     }
   }
 
   .btn-lets-talk {
-    font-size: 1.25rem;
     background: $placeholder-color;
     color: $testimonials-card-bg;
   
@@ -116,21 +99,26 @@
   }
 
   #lottie-pink-2 {
-    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 50rem;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 40rem;
 
-    @include media-breakpoint-up(sm) {
-      display: block;
-      position: absolute;
-      z-index: -1;
-      top: 10%;
-    }
-
-    @include media-breakpoint-up(md) {
-      top: -10%;
+    @include media-breakpoint-only(md) {
+      width: 50rem;
+      left: 50%;
+      top: 47%;
     }
 
     @include media-breakpoint-up(lg) {
-      top: -50%;
+      width: 60rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 100%;
     }
   }
 
@@ -177,13 +165,35 @@
     }
   }
 
-  .lottie-stars,
   .lottie-fireworks {
-    max-width: 10rem;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    max-width: 7rem;
+    top: 40%;
+    left: 48%;
   }
 
   .testimonials-cards-container {
     position: relative;
     z-index: 3;
+  }
+
+  .single-card-col {
+    max-width: 22rem;
+
+    .card-footer-custom {
+      background-color: $testimonials-card-footer-bg;
+      height: 20rem;
+
+      .footer-description-custom {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  .d-custom-block {
+    @media screen and (min-width: 1520px) {
+      display: block !important;
+    }
   }
 }
