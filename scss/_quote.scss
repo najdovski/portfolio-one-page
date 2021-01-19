@@ -2,27 +2,52 @@
   background: $placeholder-color;
 
   #lottie-pink {
-    margin-bottom: -10rem;
+    position: absolute;
+    bottom: -5rem;
+    left: -5rem;
+  }
+
+  #lottie-yellow-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   .left-quote {
-    max-width: 3.5rem;
     position: absolute;
-    left: 18%;
-    top: 8%;
+    top: 3rem;
+    left: 7rem;
+
+    @include media-breakpoint-down(sm) {
+      width: 2rem;
+    }
   }
 
   .right-quote {
-    max-width: 3.5rem;
     position: absolute;
-    top: 60%;
+    bottom: 3rem;
+    right: 7rem;
+
+    @include media-breakpoint-down(sm) {
+      width: 2rem;
+    }
   }
 
   .quote-text {
-    padding: 3rem 0;
+    line-height: 2.5rem;
+    padding: 6rem 0;
 
     @include media-breakpoint-up(xl) { 
       padding: 7rem 0;
+    }
+
+
+    .breaking {
+      color: $quote-breaking;
+    }
+
+    .text-container {
+      max-width: 99rem;
     }
   }
 }

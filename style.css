@@ -25,30 +25,29 @@ body {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 100%;
-  max-width: 5rem;
+  width: 6rem;
 }
 @media (min-width: 576px) {
   .video-div .play-button {
-    max-width: 9rem;
+    width: 8rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .video-div .play-button {
-    max-width: 7rem;
+    width: 10rem;
   }
 }
-@media screen and (max-height: 1800px) {
+@media screen and (min-width: 1800px) {
   .video-div .play-button {
-    max-width: 9rem;
-  }
-}
-@media screen and (min-height: 1800px) {
-  .video-div .play-button {
-    max-width: 12rem;
+    width: 12rem !important;
   }
 }
 .video-div .play-button:hover {
   background-color: #FD4D7390;
+}
+
+.full-hd-max-width {
+  max-width: 1920px !important;
 }
 
 .modal {
@@ -1083,21 +1082,28 @@ body {
 }
 .upwork .percentage-current {
   color: #292779;
+  font-weight: 600;
   text-shadow: 1px 1px 4px black;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 4rem;
+  line-height: 4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .upwork .percentage-current {
-    text-shadow: 3px 3px 7px black;
     font-size: 5rem;
     line-height: 5rem;
   }
 }
+@media (min-width: 768px) {
+  .upwork .percentage-current {
+    font-size: 5.63rem;
+    line-height: 5.63rem;
+  }
+}
 @media (min-width: 992px) {
   .upwork .percentage-current {
-    font-size: 7rem;
-    line-height: 7rem;
+    text-shadow: 2px 2px 4px black;
+    font-size: 5.63rem;
+    line-height: 5.63rem;
   }
 }
 .upwork .percentage-100 {
@@ -1105,6 +1111,11 @@ body {
   font-size: 2rem;
 }
 @media (min-width: 768px) {
+  .upwork .percentage-100 {
+    font-size: 2.7rem;
+  }
+}
+@media (min-width: 992px) {
   .upwork .percentage-100 {
     font-size: 3.13rem;
   }
@@ -1133,30 +1144,33 @@ body {
 @media screen and (max-width: 1480px) {
   .upwork #lottie-blue,
 .upwork #lottie-yellow {
-    max-width: 20rem;
+    max-width: 21rem;
   }
 }
-.upwork .table-stars {
-  margin-top: 3rem;
-}
-@media screen and (min-width: 1724px) {
-  .upwork .table-stars {
-    margin-top: 0;
-  }
-}
-@media screen and (max-width: 1724px) {
+@media (max-width: 1199.98px) {
   .upwork .table-stars .lottie-stars {
     max-width: 15rem;
   }
 }
-@media (max-width: 767.98px) {
-  .upwork .table-stars .lottie-stars {
-    max-width: 12rem;
+@media screen and (max-width: 1199px) {
+  .upwork .percentage-stars-container {
+    margin-top: 2.5rem;
   }
 }
-@media screen and (max-width: 1724px) {
+@media screen and (min-width: 1200px) and (max-width: 1480px) {
   .upwork .percentage-stars-container {
-    padding: 3rem 0;
+    margin-top: -17.7rem;
+  }
+  .upwork .percentage-stars-container .lottie-stars {
+    max-width: 14rem !important;
+  }
+}
+@media screen and (min-width: 1481px) {
+  .upwork .percentage-stars-container {
+    margin-top: -21.7rem;
+  }
+  .upwork .percentage-stars-container .numbers-stars-container {
+    padding-right: 5rem;
   }
 }
 
@@ -1176,54 +1190,162 @@ body {
 }
 .ui-ux-json .description {
   color: #2699FB;
-  font-size: 0.88rem;
+  font-size: 0.7rem;
+}
+@media (min-width: 992px) {
+  .ui-ux-json .description {
+    font-size: 0.88rem;
+  }
 }
 .ui-ux-json .video-div {
   max-width: 53.63rem;
+}
+@media (min-width: 992px) {
+  .ui-ux-json .video-div {
+    height: 100%;
+  }
+}
+.ui-ux-json .video-div .image-container {
+  background-image: url("images/ux-ui-json/video.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 12rem;
+}
+@media (min-width: 576px) {
+  .ui-ux-json .video-div .image-container {
+    height: 18rem;
+  }
+}
+@media (min-width: 768px) {
+  .ui-ux-json .video-div .image-container {
+    height: 22rem;
+  }
+}
+@media (min-width: 992px) {
+  .ui-ux-json .video-div .image-container {
+    width: 22rem;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .ui-ux-json .video-div .image-container {
+    height: 100%;
+    width: 27rem;
+  }
+}
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+  .ui-ux-json .video-div .image-container {
+    height: 100%;
+    width: 37rem;
+  }
+}
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+  .ui-ux-json .video-div .image-container {
+    height: 100%;
+    width: 42rem;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+  .ui-ux-json .video-div .image-container {
+    height: 100%;
+    width: 47.8rem;
+  }
+}
+@media screen and (min-width: 1801px) {
+  .ui-ux-json .video-div .image-container {
+    height: 100%;
+    width: 53.63rem;
+    max-width: 53.63rem;
+  }
 }
 
 .fashion-commercials {
   background-image: linear-gradient(#ee8199, #ff476e);
 }
+.fashion-commercials .container-main-max-width {
+  max-width: 86.75rem !important;
+}
 .fashion-commercials .title {
   font-size: 1.88rem;
 }
 .fashion-commercials .fashion-commercials-hr {
-  max-width: 40rem;
   border-bottom: 2px solid #BCE0FD;
 }
-.fashion-commercials .video-div {
-  max-width: 40rem;
+.fashion-commercials .video-div .video-1 {
+  background-image: url("images/fashion-commercials/video1.png");
 }
-.fashion-commercials .video-div .play-button {
-  left: 50% !important;
-  top: 45% !important;
+.fashion-commercials .video-div .video-2 {
+  background-image: url("images/fashion-commercials/video2.png");
+}
+.fashion-commercials .video-div .video-1,
+.fashion-commercials .video-div .video-2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 12rem;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .fashion-commercials .video-div .video-1,
+.fashion-commercials .video-div .video-2 {
+    height: 28rem;
+  }
+}
+@media (min-width: 992px) {
+  .fashion-commercials .description {
+    max-width: 35.68rem;
+  }
 }
 
 .quote {
   background: #221B57;
 }
 .quote #lottie-pink {
-  margin-bottom: -10rem;
+  position: absolute;
+  bottom: -5rem;
+  left: -5rem;
+}
+.quote #lottie-yellow-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .quote .left-quote {
-  max-width: 3.5rem;
   position: absolute;
-  left: 18%;
-  top: 8%;
+  top: 3rem;
+  left: 7rem;
+}
+@media (max-width: 767.98px) {
+  .quote .left-quote {
+    width: 2rem;
+  }
 }
 .quote .right-quote {
-  max-width: 3.5rem;
   position: absolute;
-  top: 60%;
+  bottom: 3rem;
+  right: 7rem;
+}
+@media (max-width: 767.98px) {
+  .quote .right-quote {
+    width: 2rem;
+  }
 }
 .quote .quote-text {
-  padding: 3rem 0;
+  line-height: 2.5rem;
+  padding: 6rem 0;
 }
 @media (min-width: 1200px) {
   .quote .quote-text {
     padding: 7rem 0;
   }
+}
+.quote .quote-text .breaking {
+  color: #fc5075;
+}
+.quote .quote-text .text-container {
+  max-width: 99rem;
 }
 
 .cards-container {
@@ -1328,51 +1450,92 @@ body {
     line-height: 4.1rem;
   }
 }
-.who-is .flag img {
-  max-width: 5rem;
+@media (min-width: 1200px) {
+  .who-is .who-is-description {
+    max-width: 60.82rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .who-is .who-is-description {
+    max-width: 48rem;
+  }
+}
+@media (min-width: 1200px) {
+  .who-is .flags-container {
+    max-width: 60.82rem;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .who-is .flags-container {
+    max-width: 48rem;
+  }
+}
+.who-is .flags-container .flag img {
+  max-width: 3rem;
   border-radius: 15%;
 }
-@media screen and (max-width: 1630px) {
-  .who-is .flags-xl-container {
-    justify-content: center;
+@media (min-width: 576px) {
+  .who-is .flags-container .flag img {
+    max-width: 4.3rem;
   }
 }
-@media screen and (max-width: 1630px) {
-  .who-is .who-is-description {
-    max-width: 85%;
-    text-align: center;
+@media (min-width: 768px) {
+  .who-is .flags-container .flag img {
+    max-width: 5rem;
   }
 }
-@media screen and (max-width: 1630px) {
-  .who-is .mario-container {
-    display: none;
+@media (min-width: 992px) {
+  .who-is .flags-container .flag img {
+    max-width: 5.5rem;
   }
 }
-.who-is .mario-container .mario {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-}
-.who-is .mario-container .mario img {
-  max-width: 83%;
+@media (min-width: 1200px) {
+  .who-is .flags-container .flag img {
+    max-width: 6.2rem;
+  }
 }
 .who-is #lottie-white {
   position: absolute;
-  top: 39%;
-  right: 0;
+  bottom: 0;
+  right: -6rem;
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .who-is #lottie-white {
+    width: 34rem;
+  }
+}
+@media screen and (min-width: 1501px) and (max-width: 1650px) {
+  .who-is #lottie-white {
+    width: 40rem;
+  }
+}
+.who-is #mario {
+  position: absolute;
+  bottom: 0;
+  right: -4.5rem;
+  z-index: 1;
+}
+@media screen and (min-width: 1501px) {
+  .who-is #mario {
+    width: auto !important;
+  }
+}
+.who-is #mario img {
+  max-width: 44.63rem;
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .who-is #mario img {
+    width: 30rem;
+  }
 }
 
 .testimonials {
-  background-image: url("images/testimonials/bg-1.png");
+  background-image: url("images/testimonials/bottom.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 30rem;
+  background-position: bottom;
 }
 .testimonials .interested-working-div {
-  background-image: url("images/testimonials/bg-2.png");
-  background-repeat: no-repeat;
-  background-position: -3rem 0;
   margin-top: 2rem;
 }
 @media (min-width: 576px) {
@@ -11484,10 +11647,10 @@ h3 {
 }
 @media (min-width: 768px) {
   .fs-giant {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-height: 1600px) {
   .fs-giant {
     font-size: 3.13rem;
   }

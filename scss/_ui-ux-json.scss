@@ -15,10 +15,66 @@
 
   .description {
     color: $neon;
-    font-size: 0.88rem;
+    font-size: 0.7rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 0.88rem;
+    }
   }
 
   .video-div {
     max-width: 53.63rem;
+
+    @include media-breakpoint-up(lg) {
+      height: 100%;
+    }
+    
+    .image-container {
+      background-image: url("images/ux-ui-json/video.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      height: 12rem;
+
+      @include media-breakpoint-up(sm) {
+        height: 18rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        height: 22rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 22rem;
+        height: 100%;
+      }
+
+      @media screen and (min-width: 1200px) and (max-width: 1400px) {
+        height: 100%;
+        width: 27rem;
+      }
+
+      @media screen and (min-width: 1401px) and (max-width: 1500px) {
+        height: 100%;
+        width: 37rem;
+      }
+
+      @media screen and (min-width: 1501px) and (max-width: 1600px) {
+        height: 100%;
+        width: 42rem;
+      }
+
+      @media screen and (min-width: 1601px) and (max-width: 1800px) {
+        height: 100%;
+        width: 47.8rem;
+      }
+
+      @media screen and (min-width: 1801px) {
+        height: 100%;
+        width: 53.63rem;
+        max-width: 53.63rem;
+      }
+    }
   }
 }

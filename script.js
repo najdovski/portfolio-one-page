@@ -1,3 +1,6 @@
+// jQuey scrollTop() -> vanilla JS (for future reference)
+// window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+
 // Hero bg lottie
 lottie.loadAnimation({
   container: document.querySelector('#hero-bg-lottie'),
@@ -48,32 +51,58 @@ lottie.loadAnimation({
   }
 });
 
-// Stars lottie
-document.querySelectorAll('.lottie-stars').forEach((singleStarsContainer) => {
-  lottie.loadAnimation({
+// Upwork stars lottie
+document.querySelectorAll('.upwork .lottie-stars').forEach((singleStarsContainer) => {
+  const upworkStars = lottie.loadAnimation({
     container: singleStarsContainer,
     renderer: 'svg',
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
     path: 'lotties/stars.json',
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid meet'
     }
   });
+  
+  startOnScrollReach(upworkStars, document.querySelector('.upwork'));
+});
+
+// Testimonials stars lottie
+document.querySelectorAll('.testimonials .lottie-stars').forEach((singleStarsContainer) => {
+  const testimonialsStars = lottie.loadAnimation({
+    container: singleStarsContainer,
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'lotties/stars.json',
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid meet'
+    }
+  });
+
+  startOnScrollReach(testimonialsStars, document.querySelector('.testimonials-cards-container'));
 });
 
 // Apostrophe lottie
 document.querySelectorAll('.lottie-apostrophe').forEach((singleApostropheContainer) => {
-  lottie.loadAnimation({
+  const apostrophe = lottie.loadAnimation({
     container: singleApostropheContainer,
     renderer: 'svg',
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
     path: 'lotties/apostrophe.json',
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid meet'
     }
   });
+
+  apostrophe.addEventListener('enterFrame', function (animation) {
+    if (animation.currentTime > (apostrophe.totalFrames - 100)) {
+      apostrophe.pause();
+    }
+  });
+
+  startOnScrollReach(apostrophe, document.querySelector('.quote'));
 });
 
 // Pink lottie
@@ -177,4 +206,29 @@ function submitForm() {
   .catch((error) => {
     document.querySelector('#email-not-sent').classList.remove('d-none');
   });
+}
+
+// Debounce function
+function debounce(func, wait = 20, immediate = true) {
+  var timeout;
+  return function() {
+    var context = this, args = arguments;
+    var later = function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
+
+// Fire off when scroll is beyond parents position
+function startOnScrollReach(animation, parentElement) {
+  window.addEventListener('scroll', debounce(() => {
+    if (parentElement.getBoundingClientRect().top < 700) {
+      animation.play();
+    }
+  }));
 }

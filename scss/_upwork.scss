@@ -3,19 +3,25 @@
 
   .percentage-current {
     color: $percentage-color;
+    font-weight: 600;
     text-shadow: 1px 1px 4px black;
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 4rem;
+    line-height: 4rem;
 
-    @include media-breakpoint-up(md) {
-      text-shadow: 3px 3px 7px black;
+    @include media-breakpoint-up(sm) {
       font-size: 5rem;
       line-height: 5rem;
     }
 
+    @include media-breakpoint-up(md) {
+      font-size: 5.63rem;
+      line-height: 5.63rem;
+    }
+
     @include media-breakpoint-up(lg) {
-      font-size: 7rem; 
-      line-height: 7rem;
+      text-shadow: 2px 2px 4px black;
+      font-size: 5.63rem;
+      line-height: 5.63rem;
     }
   }
 
@@ -24,6 +30,10 @@
     font-size: 2rem;
 
     @include media-breakpoint-up(md) {
+      font-size: 2.7rem;
+    }
+
+    @include media-breakpoint-up(lg) {
       font-size: 3.13rem;
     }
   }
@@ -50,33 +60,37 @@
     max-width: 25rem;
 
     @media screen and (max-width: 1480px) {
-      max-width: 20rem;
+      max-width: 21rem;
     }
   }
 
   .table-stars {
-    margin-top: 3rem;
-
-    @media screen and (min-width: 1724px) {
-      margin-top: 0;
-    }
-
-    @media screen and (max-width: 1724px) {
+    @include media-breakpoint-down(lg) {
       .lottie-stars {
         max-width: 15rem;
-      }
-    }
-
-    @include media-breakpoint-down(sm) {
-      .lottie-stars {
-        max-width: 12rem;
       }
     }
   }
 
   .percentage-stars-container {
-    @media screen and (max-width: 1724px) {
-      padding: 3rem 0;
+    @media screen and (max-width: 1199px) {
+      margin-top: 2.5rem;
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1480px) {
+      margin-top: -17.7rem;
+      
+      .lottie-stars {
+        max-width: 14rem !important;
+      }
+    }
+
+    @media screen and (min-width: 1481px) {
+      margin-top: -21.7rem;
+
+      .numbers-stars-container {
+        padding-right: 5rem;
+      }
     }
   }
 }

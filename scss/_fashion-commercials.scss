@@ -1,21 +1,45 @@
 .fashion-commercials {
   background-image: linear-gradient(#ee8199, #ff476e);
 
+  .container-main-max-width {
+    max-width: 86.75rem !important;
+  }
+
   .title {
     font-size: 1.88rem;
   }
 
   .fashion-commercials-hr {
-    max-width: 40rem;
     border-bottom: 2px solid $fashion-commercials-border;
   }
-
+  
   .video-div {
-    max-width: 40rem;
+    
+    .video-1 {
+      background-image: url("images/fashion-commercials/video1.png");
+    }
 
-    .play-button {
-      left: 50% !important;
-      top: 45% !important;
+    .video-2 {
+      background-image: url("images/fashion-commercials/video2.png");
+    }
+
+    .video-1,
+    .video-2 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 12rem;
+      width: 100%;
+
+      @include media-breakpoint-up(sm) {
+        height: 28rem;
+      }
+    }
+  }
+
+  .description {
+    @include media-breakpoint-up(lg) {
+      max-width: 35.68rem;
     }
   }
 }

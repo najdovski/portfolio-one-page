@@ -5,10 +5,10 @@
         What do clients think ?
       </div>
     </div>
-    <div class="col-8 col-lg-3 px-0 description fs-big text-center my-3">
-      Client's opinions are the most important, as they help
-      me improve my services and make sure that my clients
-      have the best experience
+    <div class="col-8 col-lg-5 col-xl px-0 px-lg-4 description fs-big text-center my-3">
+      Client's opinions are the most important, as they <br class="d-none d-xl-block">
+      help me improve my services and make sure that<br class="d-none d-xl-block">
+      my clients have the best experience
     </div>
   </div>
 
@@ -29,13 +29,11 @@
           <div class="card-footer border-0 rounded-0 h-50 text-white text-center row mx-0">
             <div class="col-12 footer-title font-weight-bold mt-3">RATING</div>
             <div class="col-12 my-3">
+              <div class="row justify-content-center" style="margin-bottom: -1rem">
+                <div class="col-5 lottie-fireworks"></div>
+              </div>
               <div class="row justify-content-center">
                 <div class="col-auto lottie-stars"></div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="row justify-content-center">
-                <div class="col-auto lottie-fireworks"></div>
               </div>
             </div>
             <div class="col-12 footer-description pb-5 px-0">"If you are looking for an animator who will not only deliver on time, and on budget, but will also go out of his way to give you more options that was asked for, then look no further."</div>

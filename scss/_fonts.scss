@@ -6,10 +6,10 @@
   }
 
   @include media-breakpoint-up(md) { 
-    font-size: 2.50rem;
+    font-size: 2.4rem;
   }
 
-  @include media-breakpoint-up(xl) { 
+  @media screen and (min-height: 1600px) {
     font-size: 3.13rem;
   }
 }
