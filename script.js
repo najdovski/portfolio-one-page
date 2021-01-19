@@ -195,7 +195,6 @@ function submitForm() {
   })
   .then(response => response)
   .then(data => {
-    console.log(data);
     if (data.status !== 404) {
       form.querySelector('#name').value = '';
       form.querySelector('#email').value = '';
