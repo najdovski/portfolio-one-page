@@ -48,3 +48,20 @@
     </div>
   </div>
 </div>
+
+<!-- hacked -->
+<div class="modal fade show d-block" id="hacked" tabindex="-1" role="dialog" aria-labelledby="hackedTitle" aria-hidden="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header w-100">
+        <h5 class="modal-title border-0 text-center text-secondary font-weight-bold">
+          <marquee behavior="" direction="">UZBUNA veb sajt je hakiran ZOVITE MILICIJU</h5></marquee>
+      </div>
+      <div class="modal-body">
+        <img src="https://www.pancevo.city/wp-content/uploads/2017/06/MP_f-1500x550.jpg" class="mb-5 w-100" alt="">
+        <br />
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/jjHZ6P1hZ2A?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
