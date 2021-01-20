@@ -30,14 +30,14 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 mx-5 my-2 mx-sm-0 my-sm-0 col-sm-6 col-md text-center mb-4 mb-md-0 align-self-center">
+      <div class="col-12 col-sm-3 col-md-2 mx-5 my-2 mx-sm-0 my-sm-0 text-center mb-4 mb-md-0 align-self-center">
         <div class="row justify-content-center">
           <div class="col-5 col-sm-12">
             <img src="images/clients-logos/cardsplug.png" alt="Cards Plug" class="img-fluid">
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 text-center mb-4 mb-md-0 align-self-center">
+      <div class="col-12 col-sm-6 col-md text-center mb-4 mb-md-0 align-self-center">
         <div class="row justify-content-center">
           <div class="col-7 col-sm-12">
             <img src="images/clients-logos/token-metrics.png" alt="Token Metrics" class="img-fluid">
