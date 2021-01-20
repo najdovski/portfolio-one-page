@@ -30,18 +30,18 @@
 .lottie-placeholder-container {
   #lottie-placeholder {
     position: absolute;
-    width: 22rem;
-    top: -16.8rem;
-    left: -9.7rem;
+    width: 26.4rem;
+    top: -20.1rem;
+    left: -11.7rem;
 
     @media screen and (max-height: 1011px) {
       display: none;
     }
 
     @include media-breakpoint-up(md) { 
-      width: 32rem;
-      top: -24.3rem;
-      left: -13.7rem;
+      width: 38.4rem;
+      top: -29.3rem;
+      left: -17rem;
     }
   }
 }

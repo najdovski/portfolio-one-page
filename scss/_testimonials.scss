@@ -181,14 +181,21 @@
 
       input:not([type=submit]),
       textarea {
+        @include media-breakpoint-down(md) {
+          font-size: 0.7rem;
+        }
         background-color: $contact-form-input-bg;
       }
 
       textarea {
-        max-height: 10rem;
+        max-height: 7rem;
+
+        @include media-breakpoint-up(md) {
+          max-height: 10rem;
+        }
       }
 
-      input {
+      input:not([type=submit]) {
         height: 4.19rem;
         margin-bottom: 0.3rem;
       }
@@ -206,6 +213,10 @@
       }
 
       input[type=submit] {
+        height: 2.5rem;
+        @include media-breakpoint-up(md) {
+          height: 4.19rem;
+        }
         background-color: $contact-form-submit-bg;
       }
 

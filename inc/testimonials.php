@@ -1,6 +1,6 @@
 <div class="container-fluid testimonials pt-5 px-0 overflow-hidden">
   <div class="row justify-content-center">
-    <div class="col-12 text-center">
+    <div class="col-11 col-sm-12 text-center">
       <div class="title title-shadow fs-heading font-weight-bold">
         What do clients think ?
       </div>
@@ -16,7 +16,7 @@
     <div class="row justify-content-center">
       <div class="col-11 full-hd-max-width">
         <div class="row justify-content-center">
-          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+          <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
                 <img src="images/testimonials/parker.png" class="my-4">
@@ -53,7 +53,7 @@
               </div>
             </div>
           </div>
-          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+          <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
                 <img src="images/testimonials/ian.png" class="my-4">
@@ -90,7 +90,7 @@
               </div>
             </div>
           </div>
-          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+          <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
                 <img src="images/testimonials/pajda.png" class="my-4">
@@ -127,7 +127,7 @@
               </div>
             </div>
           </div>
-          <div class="col-9 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
+          <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
                 <img src="images/testimonials/nemanja.png" class="my-4">
@@ -190,7 +190,7 @@
 
   <!-- Let's Talk Modal -->
   <div class="modal fade pr-0" id="letsTalkModal" tabindex="-1" role="dialog" aria-labelledby="letsTalkModalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered h-100" role="document">
+    <div class="modal-dialog modal-dialog-centered h-100 pt-5 pt-sm-0" role="document">
       <div class="modal-content border-0">
         <div class="modal-body py-xl-0">
           <div class="form-img-container row w-100 h-100">

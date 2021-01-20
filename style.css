@@ -1061,9 +1061,9 @@ video:focus {
 
 .lottie-placeholder-container #lottie-placeholder {
   position: absolute;
-  width: 22rem;
-  top: -16.8rem;
-  left: -9.7rem;
+  width: 26.4rem;
+  top: -20.1rem;
+  left: -11.7rem;
 }
 @media screen and (max-height: 1011px) {
   .lottie-placeholder-container #lottie-placeholder {
@@ -1072,9 +1072,9 @@ video:focus {
 }
 @media (min-width: 768px) {
   .lottie-placeholder-container #lottie-placeholder {
-    width: 32rem;
-    top: -24.3rem;
-    left: -13.7rem;
+    width: 38.4rem;
+    top: -29.3rem;
+    left: -17rem;
   }
 }
 
@@ -1399,10 +1399,10 @@ video:focus {
   font-family: "ArialMT";
 }
 .cards-container .cards-max-width-title {
-  max-width: 72rem;
+  max-width: 81rem !important;
 }
 .cards-container .cards-max-width {
-  max-width: 65.37rem;
+  max-width: 81rem !important;
 }
 .cards-container .title {
   color: #221B57;
@@ -1787,10 +1787,21 @@ video:focus {
 .testimonials #letsTalkModal .form-container textarea {
   background-color: #D4D4D4;
 }
+@media (max-width: 991.98px) {
+  .testimonials #letsTalkModal .form-container input:not([type=submit]),
 .testimonials #letsTalkModal .form-container textarea {
-  max-height: 10rem;
+    font-size: 0.7rem;
+  }
 }
-.testimonials #letsTalkModal .form-container input {
+.testimonials #letsTalkModal .form-container textarea {
+  max-height: 7rem;
+}
+@media (min-width: 768px) {
+  .testimonials #letsTalkModal .form-container textarea {
+    max-height: 10rem;
+  }
+}
+.testimonials #letsTalkModal .form-container input:not([type=submit]) {
   height: 4.19rem;
   margin-bottom: 0.3rem;
 }
@@ -1805,7 +1816,13 @@ video:focus {
   }
 }
 .testimonials #letsTalkModal .form-container input[type=submit] {
+  height: 2.5rem;
   background-color: #D05D79;
+}
+@media (min-width: 768px) {
+  .testimonials #letsTalkModal .form-container input[type=submit] {
+    height: 4.19rem;
+  }
 }
 @media screen and (max-width: 1500px) {
   .testimonials #letsTalkModal .form-container input[type=text],
