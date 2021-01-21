@@ -1232,7 +1232,7 @@ video:focus {
   }
 }
 .ui-ux-json .video-div .image-container {
-  background-image: url("images/ux-ui-json/video.png");
+  background-image: url("https://i.imgur.com/eK11RSl.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1300,10 +1300,10 @@ video:focus {
   border-bottom: 2px solid #BCE0FD;
 }
 .fashion-commercials .video-div .video-1 {
-  background-image: url("images/fashion-commercials/video1.png");
+  background-image: url("https://i.imgur.com/vcssDBC.png");
 }
 .fashion-commercials .video-div .video-2 {
-  background-image: url("images/fashion-commercials/video2.png");
+  background-image: url("https://i.imgur.com/uqSMC4J.png");
 }
 .fashion-commercials .video-div .video-1,
 .fashion-commercials .video-div .video-2 {
@@ -1429,7 +1429,7 @@ video:focus {
 }
 .cards-container .card .card-1-bg {
   height: 12.5rem;
-  background-image: url("images/cards/card1.gif");
+  background-image: url("https://i.imgur.com/jCNgDuH.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1439,7 +1439,7 @@ video:focus {
 }
 .cards-container .card .card-2-bg {
   min-height: 25rem;
-  background-image: url("images/cards/card2.gif");
+  background-image: url("https://i.imgur.com/wodsyRV.mp4");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1449,14 +1449,14 @@ video:focus {
 }
 .cards-container .card-4-bg {
   min-height: 22.4rem;
-  background-image: url("images/cards/card4.gif");
+  background-image: url("https://i.imgur.com/FwDqsb7.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .cards-container .card-3-img-div {
   min-height: 26.25rem;
-  background-image: url("images/cards/card3.png");
+  background-image: url("https://i.imgur.com/gZxASg5.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1465,7 +1465,7 @@ video:focus {
   min-height: 26.25rem;
 }
 .cards-container .dm-video {
-  background-image: url("images/cards/card5.png");
+  background-image: url("https://i.imgur.com/kQynt0X.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1481,7 +1481,7 @@ video:focus {
   }
 }
 .cards-container .card-house {
-  background-image: url("images/cards/card6.png");
+  background-image: url("https://i.imgur.com/VrfHEfv.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1610,7 +1610,7 @@ video:focus {
 }
 
 .testimonials {
-  background-image: url("images/testimonials/bottom.png");
+  background-image: url("https://i.imgur.com/23z0tlm.png");
   background-repeat: no-repeat;
   background-position: -20rem 170rem;
 }
@@ -1759,7 +1759,7 @@ video:focus {
   background: unset !important;
 }
 .testimonials #letsTalkModal .image-contact {
-  background-image: url("images/testimonials/contact-left.jpg");
+  background-image: url("https://i.imgur.com/DM4plqi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
