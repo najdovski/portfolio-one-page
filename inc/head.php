@@ -20,9 +20,9 @@
     
 </head>
 <body class="overflow-hidden">
-  <div id="loader-container" class="vh-100 vw-100 position-absolute z-index-10">
-    <div id="loader-text" class="animation-fade-in-out"><span class="color-1">LOADING</span> <span class="color-2">ASSETS...</span></div>
-    <div id="lottie-loader"></div>
+  <div id="loader-container" class="vh-100 vw-100 position-absolute z-index-10 text-center">
+    <div id="loader-text" class="animation-fade-in-out"><span class="color-1">ASSETS</span> <span class="color-2">LOADING...</span></div>
+    <img id="img-loader" src="https://i.imgur.com/rk6Smon.gif" class="mw-100 mh-100">
   </div>
   <div id="wrapper" class="disabled-div">
   

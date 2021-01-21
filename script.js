@@ -254,27 +254,15 @@ modals.forEach(modal => {
   });
 });
 
-// Loader lottie
-lottie.loadAnimation({
-  container: document.querySelector('#lottie-loader'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'lotties/loader.json',
-  rendererSettings: {
-    preserveAspectRatio: 'xMidYMid meet'
-  }
-});
-
 // Show loader animation untill the fonts are ready
 document.fonts.ready.then(() => {
-  const wrapper = document.querySelector('#wrapper');
-  const bodyEl = document.querySelector('body');
-  const loaderContainer = document.querySelector('#loader-container');
+  // const wrapper = document.querySelector('#wrapper');
+  // const bodyEl = document.querySelector('body');
+  // const loaderContainer = document.querySelector('#loader-container');
 
-  bodyEl.classList.remove('overflow-hidden');
-  loaderContainer.remove();
-  wrapper.classList.remove('disabled-div');
-  wrapper.classList.add('animation-fade-in');
-  const body = new Scrooth();
+  // bodyEl.classList.remove('overflow-hidden');
+  // loaderContainer.remove();
+  // wrapper.classList.remove('disabled-div');
+  // wrapper.classList.add('animation-fade-in');
+  // const body = new Scrooth();
 });
