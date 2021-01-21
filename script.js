@@ -256,13 +256,13 @@ modals.forEach(modal => {
 
 // Show loader animation untill the fonts are ready
 document.fonts.ready.then(() => {
-  // const wrapper = document.querySelector('#wrapper');
-  // const bodyEl = document.querySelector('body');
-  // const loaderContainer = document.querySelector('#loader-container');
+  const wrapper = document.querySelector('#wrapper');
+  const bodyEl = document.querySelector('body');
+  const loaderContainer = document.querySelector('#loader-container');
 
-  // bodyEl.classList.remove('overflow-hidden');
-  // loaderContainer.remove();
-  // wrapper.classList.remove('disabled-div');
-  // wrapper.classList.add('animation-fade-in');
-  // const body = new Scrooth();
+  bodyEl.classList.remove('overflow-hidden');
+  loaderContainer.remove();
+  wrapper.classList.remove('disabled-div');
+  wrapper.classList.add('animation-fade-in');
+  const body = new Scrooth();
 });
