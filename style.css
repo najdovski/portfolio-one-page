@@ -1439,7 +1439,7 @@ video:focus {
 }
 .cards-container .card .card-2-bg {
   min-height: 25rem;
-  background-image: url("https://i.imgur.com/wodsyRV.mp4");
+  background-image: url("images/cards/card2.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
