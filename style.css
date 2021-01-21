@@ -77,6 +77,50 @@ video:focus {
   background: unset !important;
 }
 
+.disabled-div {
+  opacity: 0.1 !important;
+  pointer-events: none !important;
+  overflow: hidden;
+}
+
+#loader-text {
+  position: absolute;
+  top: 72%;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif !important;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+@media (min-width: 576px) {
+  #loader-text {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #loader-text {
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  #loader-text {
+    font-size: 3.7rem;
+  }
+}
+#loader-text .color-1 {
+  color: #FD4D73;
+}
+#loader-text .color-2 {
+  color: #FFD500;
+}
+
+#lottie-loader {
+  position: absolute;
+  width: 50%;
+  height: 42%;
+  transform: translate(50%, 50%);
+}
+
 .modal.modal-custom {
   height: 100%;
   margin: 0;
@@ -901,6 +945,10 @@ video:focus {
   background: unset !important;
 }
 
+.z-index-10 {
+  z-index: 10 !important;
+}
+
 .animation-left-slide-1 {
   animation: left-slide calc(1 * 0.5s) cubic-bezier(0.2, 0.35, 0.5, 1) both;
 }
@@ -1027,6 +1075,39 @@ video:focus {
   }
   100% {
     transform: translateX(0);
+  }
+}
+.animation-fade-in {
+  opacity: 0;
+  animation: fadeIn ease 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animation-fade-in-out {
+  opacity: 0;
+  animation: fadeInOut ease 2.5s infinite;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 .main-container {

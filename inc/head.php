@@ -19,6 +19,11 @@
     <script src="https://kit.fontawesome.com/04def07e4f.js" crossorigin="anonymous"></script>
     
 </head>
-<body>
-  <div id="wrapper">
+<body class="overflow-hidden">
+  <div id="loader-container" class="vh-100 vw-100 position-absolute z-index-10">
+    <div id="loader-text" class="animation-fade-in-out"><span class="color-1">LOADING</span> <span class="color-2">ASSETS...</span></div>
+    <div id="lottie-loader"></div>
+  </div>
+  <div id="wrapper" class="disabled-div">
+  
     

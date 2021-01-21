@@ -42,5 +42,3 @@ class Scrooth {
     }
   }
 }
-
-const body = new Scrooth();

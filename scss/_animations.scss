@@ -29,3 +29,39 @@
     transform: translateX(0);
   }
 }
+
+// Fade in
+.animation-fade-in {
+  opacity: 0;
+  animation: fadeIn ease 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation-fade-in-out {
+  opacity: 0;
+  animation: fadeInOut ease 2.5s infinite;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

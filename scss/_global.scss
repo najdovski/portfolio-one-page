@@ -57,3 +57,46 @@ video {
 .bg-unset {
   background: unset !important;
 }
+
+.disabled-div {
+  opacity: 0.1 !important;
+  pointer-events: none !important;
+  overflow: hidden;
+}
+
+#loader-text {
+  position: absolute;
+  top: 72%;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif !important;
+  font-weight: 900;
+  font-size: 1.3rem;
+
+  @include media-breakpoint-up(sm) { 
+    font-size: 2rem;
+  }
+
+  @include media-breakpoint-up(md) { 
+    font-size: 2.8rem;
+  }
+
+  @include media-breakpoint-up(xl) { 
+    font-size: 3.7rem;
+  }
+
+  .color-1 {
+    color: $pink-2;
+  }
+
+  .color-2 {
+    color: $primary;
+  }
+}
+
+#lottie-loader {
+  position: absolute;
+  width: 50%;
+  height: 42%;
+  transform: translate(50%, 50%);
+}
