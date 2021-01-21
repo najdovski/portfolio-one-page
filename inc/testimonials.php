@@ -19,7 +19,7 @@
           <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
-                <img src="images/testimonials/parker.png" class="my-4">
+                <img src="https://i.imgur.com/TCotiVk.png" class="my-4">
                 <div class="font-weight-bold fs-big">Parker Esmay</div>
                 <div class="card-description m-2">CEO at <br class="d-none d-sm-block d-md-none d-lg-block" /> Blue Hare Marketing</div>
                 <br class="d-none d-lg-block d-xl-none" />
@@ -56,7 +56,7 @@
           <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
-                <img src="images/testimonials/ian.png" class="my-4">
+                <img src="https://i.imgur.com/F4PNJRM.png" class="my-4">
                 <div class="font-weight-bold fs-big">Ian Balina</div>
                 <div class="card-description m-2">CEO at TokenMetrics</div>
                 <br class="d-none d-sm-block d-md-none d-lg-block" />
@@ -93,7 +93,7 @@
           <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
-                <img src="images/testimonials/pajda.png" class="my-4">
+                <img src="https://i.imgur.com/fiYZOyv.png" class="my-4">
                 <div class="font-weight-bold fs-big">David Pajda</div>
                 <div class="card-description m-2 px-lg-3 px-xl-0">Co-Founder at <br class="d-none d-sm-block d-md-none" />CardsPlug</div>
                 <br class="d-none d-lg-block" />
@@ -130,7 +130,7 @@
           <div class="col-12 col-sm-6 col-lg-3 mt-4 single-card-col px-lg-1 px-xl-3">
             <div class="card border-0 rounded-0 h-100">
               <div class="card-body text-center pb-5">
-                <img src="images/testimonials/nemanja.png" class="my-4">
+                <img src="https://i.imgur.com/zXGgb1C.png" class="my-4">
                 <div class="font-weight-bold fs-big">Nemanja Rodic</div>
                 <div class="card-description m-2">Marketing Executive at <br class="d-none d-sm-block d-md-none d-lg-block" /> Valoya</div>
                 <br class="d-none d-lg-block d-xl-none">
@@ -199,7 +199,7 @@
               <div class="form-container row py-2 px-3 px-xl-5">
                 <div class="col-12 col-sm text-center text-sm-left px-0 title font-weight-bold align-self-end lets-talk-title">Let's Talk</div>
                 <div class="col-12 col-sm text-center text-sm-right px-0 text-right align-self-center align-self-xl-end lets-talk-title">
-                  <img src="images/testimonials/logo-icon.png">
+                  <img src="https://i.imgur.com/Z7vFczX.png">
                 </div>
                 <form id="contact-form" novalidate method="POST" class="row justify-content-center">
                   <div id="email-sent" class="col-12 text-center py-3 text-white bg-success mb-4 rounded d-none">Email sent successfully</div>

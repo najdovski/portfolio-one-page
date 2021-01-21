@@ -19,37 +19,21 @@
           </div>
           <div class="row justify-content-center justify-content-xl-start">
             <div class="col-11 col-sm-10 col-lg-12 mt-3">
-              <img src="images/ux-ui-json/lottie-example.png" alt="Lottie example" class="w-100">
+              <img src="https://i.imgur.com/3Qvv4IC.png" alt="Lottie example" class="w-100">
+              <!-- <img src="images/ux-ui-json/lottie-example.png" alt="Lottie example" class="w-100"> -->
             </div>
           </div>
         </div>
         <div class="col-11 col-sm-10 col-lg-auto mt-4 mt-lg-0 align-self-end video-div">
           <div class="image-container"></div>
-          <a href="#" data-toggle="modal" data-target="#ui-ux-video-modal"><img src="images/videos/play.png" class="play-button"></a>
+          <a href="#" data-toggle="modal" data-target="#ui-ux-video-modal">
+            <img src="images/videos/play.png" class="play-button">
+          </a>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<!-- Old custom Modal -->
-<!-- <div class="modal-custom fade pr-0" id="ui-ux-video-modal" tabindex="-1" role="dialog" aria-labelledby="ui-ux-video-modalTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-placeholder">
-        <div class="row justify-content-center mt-4">
-          <div class="col-9 align-self-center font-weight-bold">
-           
-            <video controls="controls" class="w-100">
-              <source src="https://dl.dropboxusercontent.com/s/rcjnelzvyjjc9zu/01_App.mp4?dl=0" type="video/mp4"></source>
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
 
 <!-- Modal -->
 <div class="modal fade" id="ui-ux-video-modal" tabindex="-1" role="dialog" aria-labelledby="ui-ux-video-modalTitle" aria-hidden="true">

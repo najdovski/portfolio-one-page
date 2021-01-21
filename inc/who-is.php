@@ -20,19 +20,19 @@
           <div class="row justify-content-center justify-content-xl-start flags-row">
             <div class="col-12 col-sm-auto">
               <div class="row flag no-gutters justify-content-center justify-content-sm-left">
-                <div class="col-auto pr-2"><img src="images/who-is/usa.png" class="w-100"></div>
+                <div class="col-auto pr-2"><img src="https://i.imgur.com/XcNJUHm.png" class="w-100"></div>
                 <div class="col-auto col-sm align-self-end"><span class="lang">C1</span></div>
               </div>
             </div>
             <div class="col-12 col-sm-auto py-4 py-sm-0 px-sm-4 px-md-5">
               <div class="row flag no-gutters justify-content-center justify-content-sm-left">
-                <div class="col-auto pr-2"><img src="images/who-is/deu.png" class="w-100"></div>
+                <div class="col-auto pr-2"><img src="https://i.imgur.com/dUG5ggq.png" class="w-100"></div>
                 <div class="col-auto col-sm align-self-end"><span class="lang">B1</span></div>
               </div>
             </div>
             <div class="col-12 col-sm-auto">
               <div class="row flag no-gutters justify-content-center justify-content-sm-left">
-                <div class="col-auto pl-2 pl-sm-0 pr-2"><img src="images/who-is/srb.png" class="w-100"></div>
+                <div class="col-auto pl-2 pl-sm-0 pr-2"><img src="https://i.imgur.com/Uwtd3Cb.png" class="w-100"></div>
                 <div class="col-auto col-sm align-self-end"><span class="lang">B2</span></div>
               </div>
             </div>
@@ -43,7 +43,7 @@
   </div>
   <div class="d-none d-xl-flex row justify-content-end">
     <div id="mario" class="col-5">
-      <img src="images/who-is/mario.png" class="w-100">
+      <img src="https://i.imgur.com/tA7ONZg.png" class="w-100">
     </div>
   </div>
   <div class="d-none d-xl-block" id="lottie-white"></div>

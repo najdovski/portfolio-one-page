@@ -43,37 +43,6 @@
   </div>
 </div>
 
-<!-- Old Fashion Commercial 1 Modal -->
-<!-- <div class="modal fade pr-0" id="fashionVideoModal-1" tabindex="-1" role="dialog" aria-labelledby="fashionVideoModal-1Title" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-placeholder">
-        <div class="row">
-          <div class="col-12 align-self-center font-weight-bold">
-            VIDEO PLACEHOLDER
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- Old Fashion Commercial 2 Modal -->
-<!-- <div class="modal fade pr-0" id="fashionVideoModal-2" tabindex="-1" role="dialog" aria-labelledby="fashionVideoModal-2Title" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body modal-placeholder">
-        <div class="row">
-          <div class="col-12 align-self-center font-weight-bold">
-            VIDEO PLACEHOLDER
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-
 <!-- Fashion Commercial 1 Modal -->
 <div class="modal fade" id="fashionVideoModal-1" tabindex="-1" role="dialog" aria-labelledby="fashionVideoModal-1Title" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
