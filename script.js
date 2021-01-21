@@ -266,6 +266,7 @@ lottie.loadAnimation({
   }
 });
 
+// Show loader animation untill the fonts are ready
 document.fonts.ready.then(() => {
   const wrapper = document.querySelector('#wrapper');
   const bodyEl = document.querySelector('body');
