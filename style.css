@@ -19,7 +19,7 @@
   font-family: "Arial-BoldMT";
   src: url("fonts/Arial-BoldMT.ttf") format("truetype");
 }
-* {
+#wrapper {
   font-family: "Montserrat", sans-serif;
 }
 
