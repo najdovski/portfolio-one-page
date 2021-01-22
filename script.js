@@ -1,5 +1,5 @@
 // Hero bg lottie
-lottie.loadAnimation({
+const heroLottie = lottie.loadAnimation({
   container: document.querySelector('#hero-bg-lottie'),
   renderer: 'svg',
   loop: true,
@@ -254,17 +254,19 @@ modals.forEach(modal => {
   });
 });
 
-// Show loader animation untill the fonts are ready
-document.fonts.ready.then(() => {
-  const wrapper = document.querySelector('#wrapper');
-  const bodyEl = document.querySelector('body');
-  const loaderContainer = document.querySelector('#loader-container');
+// Show loader animation before the hero is loaded and fonts are ready to display
+heroLottie.addEventListener('DOMLoaded', () => {
+  document.fonts.ready.then(() => {
+    const wrapper = document.querySelector('#wrapper');
+    const bodyEl = document.querySelector('body');
+    const loaderContainer = document.querySelector('#loader-container');
 
-  bodyEl.classList.remove('overflow-hidden');
-  loaderContainer.remove();
-  wrapper.classList.remove('disabled-div');
-  wrapper.classList.add('animation-fade-in');
-  const body = new Scrooth();
+    bodyEl.classList.remove('overflow-hidden');
+    loaderContainer.remove();
+    wrapper.classList.remove('disabled-div');
+    wrapper.classList.add('animation-fade-in');
+    new Scrooth();
+  });
 });
 
 window.addEventListener('scroll', () => {
