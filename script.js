@@ -266,3 +266,7 @@ document.fonts.ready.then(() => {
   wrapper.classList.add('animation-fade-in');
   const body = new Scrooth();
 });
+
+window.addEventListener('scroll', () => {
+  wrapper.classList.remove('animation-fade-in');
+})
