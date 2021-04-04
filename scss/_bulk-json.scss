@@ -1,0 +1,23 @@
+.bulk-json {
+    background-image: linear-gradient(#2572cb, #58d1e4);
+  
+    .container-main-max-width {
+      max-width: 86.75rem !important;
+    }
+  
+    .title {
+      font-size: 1.88rem;
+    }
+  
+    .bulk-json-hr {
+      border-bottom: 2px solid $fashion-commercials-border;
+    }
+
+    a {
+      color: #58d1e4;
+
+      &:hover {
+        color: #2572cb;
+      }
+    }
+  }

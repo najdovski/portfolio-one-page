@@ -58,12 +58,13 @@
           </div>
           <div class="col-12 col-xl-4 border-0 pl-xl-3 mt-3 mt-xl-0 last-card">
             <div class="row h-100 no-gutters">
-              <div class="col-12 col-md-6 col-xl-12 video-div pr-md-2 pr-xl-0">
+              <div class="col-12 col-md-6 col-xl-12 video-div pr-md-2 pr-xl-0 pb-xl-2">
                 <div class="dm-video h-100"></div>
                 <a href="#" data-toggle="modal" data-target="#dmVideoModal"><img src="images/videos/play.png" class="play-button"></a>
               </div>
-              <div class="col-12 col-md-6 col-xl-12 mt-xl-3 mt-3 mt-md-0 pl-md-2 pl-xl-0">
-                <div class="card-house h-100"></div>
+              <div class="col-12 col-md-6 col-xl-12 video-div pr-md-2 pr-xl-0 pt-xl-2">
+                <div class="motion-design-video h-100"></div>
+                <a href="#" data-toggle="modal" data-target="#ui-ux-video-modal"><img src="images/videos/play.png" class="play-button"></a>
               </div>
             </div>
           </div>
@@ -102,6 +103,25 @@
             <div class="col-12">
               <video controls="controls" class="w-100 h-100">
                 <source src="https://dl.dropboxusercontent.com/s/ag9tj8zxynjo020/02_Final.mp4?dl=0" type="video/mp4"></source>
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Motion design modal -->
+<div class="modal fade" id="ui-ux-video-modal" tabindex="-1" role="dialog" aria-labelledby="ui-ux-video-modalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content bg-unset border-0">
+      <div class="modal-body p-0 m-0">
+        <div class="container-fluid p-0 m-0">
+          <div class="row">
+            <div class="col-12">
+              <video controls="controls" class="w-100 h-100">
+                <source src="https://dl.dropboxusercontent.com/s/rcjnelzvyjjc9zu/01_App.mp4?dl=0" type="video/mp4"></source>
               </video>
             </div>
           </div>

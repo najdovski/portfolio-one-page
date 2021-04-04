@@ -13,6 +13,12 @@
     color: $pink;
   }
 
+  .links-div {
+    @include media-breakpoint-up(xl) {
+      max-width: 49rem;
+    }
+  }
+
   .description {
     color: $neon;
     font-size: 0.7rem;
@@ -20,6 +26,53 @@
     @include media-breakpoint-up(lg) {
       font-size: 0.88rem;
     }
+
+    @include media-breakpoint-up(xl) {
+      font-size: 0.77rem;
+    }
+
+    @media screen and (min-width: 1401px) {
+      font-size: 0.88rem;
+    }
+  }
+
+  .description-div {
+    @include media-breakpoint-up(xl) {
+      max-width: 38rem;
+    }
+  }
+
+  .medical-img-div {
+    @media screen and (min-width: 1401px) {
+      max-width: 49rem;
+    }
+  }
+
+  .budo-img,
+  .apollo-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    content: "";
+    width: 100%;
+    @include media-breakpoint-down(md) {
+      height: 14rem !important;
+    }
+  }
+
+  .budo-img {
+    height: 100%;
+    background-image: url("https://i.imgur.com/rqdi8kJ.jpg");
+
+    @media screen and (max-width: 1401px) {
+      height: 70%;
+    }
+  }
+
+  .apollo-img {
+    height: 100%;
+    background-image: url("https://i.imgur.com/atKPxLn.jpg");
   }
 
   .video-div {

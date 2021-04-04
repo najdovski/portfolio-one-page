@@ -1,4 +1,4 @@
-<div class="container-fluid ui-ux-json py-xl-5">
+<!-- <div class="container-fluid ui-ux-json py-xl-5">
   <div class="row justify-content-center py-4 py-sm-5">
     <div class="full-hd-max-width col-11 col-md-9 col-lg-11 col-xl-10 py-md-4">
       <div class="row justify-content-center h-100">
@@ -20,7 +20,6 @@
           <div class="row justify-content-center justify-content-xl-start">
             <div class="col-11 col-sm-10 col-lg-12 mt-3">
               <img src="https://i.imgur.com/3Qvv4IC.png" alt="Lottie example" class="w-100">
-              <!-- <img src="images/ux-ui-json/lottie-example.png" alt="Lottie example" class="w-100"> -->
             </div>
           </div>
         </div>
@@ -33,10 +32,10 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Modal -->
-<div class="modal fade" id="ui-ux-video-modal" tabindex="-1" role="dialog" aria-labelledby="ui-ux-video-modalTitle" aria-hidden="true">
+<!-- <div class="modal fade" id="ui-ux-video-modal" tabindex="-1" role="dialog" aria-labelledby="ui-ux-video-modalTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content bg-unset border-0">
       <div class="modal-body p-0 m-0">
@@ -49,6 +48,54 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="container-fluid ui-ux-json py-xl-5">
+  <div class="row justify-content-center py-4 py-sm-5">
+    <div class="full-hd-max-width col-11 col-md-9 col-lg-11 col-xl-10 py-md-4">
+      <div class="row justify-content-center justify-content-xl-between">
+          <div class="col-10 col-lg-6 order-1">
+            <div class="ui-ux-json-title text-primary font-weight-bold">UI / UX Design & <br class="d-none d-xl-block" /> JSON Animation</div>
+            <div class="optimization fs-big my-3">Optimization of using the software</div>
+            <div class="row justify-content-center justify-content-xl-start">
+              <div class="col-12 description description-div my-3">
+              The client needed a UI / UX Design for his new website. Also, he came up with the idea to animate everything, just to clarify things more for less experienced web users.
+              Results came up with the following interface and these beautiful animations
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 col-lg-6 col-xl-5 order-4 order-lg-2 mt-3 mt-lg-0">
+            <a href="https://budo.webflow.io/" target="_blank"><div class="budo-img"></div></a>
+          </div>
+
+          <div class="col-10 col-lg-12 order-2 order-lg-3">
+            <div class="row">
+              <div class="col-6 links-div">
+                <div class="row">
+                  <div class="col-12 col-xl-auto">
+                  <a target="_blank" class="description font-weight-bold" href="https://www.pocuspro.com/"><i class="fas fa-globe-americas mr-2"></i> Click here to visit the website</a>
+                  </div>
+                  <div class="col-12 col-xl text-xl-right">
+                  <a target="_blank" class="description font-weight-bold text-nowrap" href="https://lottiefiles.com/markarrow"><i class="fas fa-globe-americas mr-2"></i>View all Lottie Animations here</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-10 col-lg-6 mt-xl-4 mt-3 mt-xl-0 medical-img-div order-2 order-lg-4">
+            <img src="https://i.imgur.com/3Qvv4IC.png" class="w-100">
+          </div>
+
+
+          <div class="col-10 col-lg-6 col-xl-5 mt-xl-4 mt-3 mt-xl-0 order-5">
+            <a href="https://apollosolar.webflow.io/" target="_blank"><div class="apollo-img"></div></a>
+          </div>
       </div>
     </div>
   </div>

@@ -6,6 +6,7 @@
   include 'inc/ui-ux-json.php';
   include 'inc/fashion-commercials.php';
   include 'inc/quote.php';
+  include 'inc/bulk-json.php';
   include 'inc/cards.php';
   include 'inc/who-is.php';
   include 'inc/testimonials.php';

@@ -1293,6 +1293,11 @@ video:focus {
 .ui-ux-json .optimization {
   color: #F08299;
 }
+@media (min-width: 1200px) {
+  .ui-ux-json .links-div {
+    max-width: 49rem;
+  }
+}
 .ui-ux-json .description {
   color: #2699FB;
   font-size: 0.7rem;
@@ -1301,6 +1306,54 @@ video:focus {
   .ui-ux-json .description {
     font-size: 0.88rem;
   }
+}
+@media (min-width: 1200px) {
+  .ui-ux-json .description {
+    font-size: 0.77rem;
+  }
+}
+@media screen and (min-width: 1401px) {
+  .ui-ux-json .description {
+    font-size: 0.88rem;
+  }
+}
+@media (min-width: 1200px) {
+  .ui-ux-json .description-div {
+    max-width: 38rem;
+  }
+}
+@media screen and (min-width: 1401px) {
+  .ui-ux-json .medical-img-div {
+    max-width: 49rem;
+  }
+}
+.ui-ux-json .budo-img,
+.ui-ux-json .apollo-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  content: "";
+  width: 100%;
+}
+@media (max-width: 991.98px) {
+  .ui-ux-json .budo-img,
+.ui-ux-json .apollo-img {
+    height: 14rem !important;
+  }
+}
+.ui-ux-json .budo-img {
+  height: 100%;
+  background-image: url("https://i.imgur.com/rqdi8kJ.jpg");
+}
+@media screen and (max-width: 1401px) {
+  .ui-ux-json .budo-img {
+    height: 70%;
+  }
+}
+.ui-ux-json .apollo-img {
+  height: 100%;
+  background-image: url("https://i.imgur.com/atKPxLn.jpg");
 }
 .ui-ux-json .video-div {
   max-width: 53.63rem;
@@ -1473,6 +1526,25 @@ video:focus {
   max-width: 99rem;
 }
 
+.bulk-json {
+  background-image: linear-gradient(#2572cb, #58d1e4);
+}
+.bulk-json .container-main-max-width {
+  max-width: 86.75rem !important;
+}
+.bulk-json .title {
+  font-size: 1.88rem;
+}
+.bulk-json .bulk-json-hr {
+  border-bottom: 2px solid #BCE0FD;
+}
+.bulk-json a {
+  color: #58d1e4;
+}
+.bulk-json a:hover {
+  color: #2572cb;
+}
+
 .cards-container {
   background-color: #FDE17E;
   font-family: "ArialMT";
@@ -1545,6 +1617,12 @@ video:focus {
 }
 .cards-container .dm-video {
   background-image: url("https://i.imgur.com/kQynt0X.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cards-container .motion-design-video {
+  background-image: url("https://i.imgur.com/eK11RSl.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
